@@ -1,0 +1,94 @@
+﻿@using Utilities.Helper;
+@using Entities.Entities.FrontEnd;
+@using Entities.Param;
+@using Entities.Filter;
+@using Utilities;
+@using BO;
+@{
+    var myCart = CookieStore.GetCookie<CartEntity>(Utilities.Constants.CookieCart);
+    var param = new ProductParam();
+    param.TotalProductInCart = 0;
+    if (myCart != null && myCart.ListCart != null && myCart.ListCart.Any())
+    {
+        var listId = myCart.ListCart.Select(i => i.Id).ToList();
+        var bo = new ProductBo();
+        param = new ProductParam() { ProductFilter = new ProductFilter() { Status = (int)Constants.RecordStatus.Published, ListId = listId } };
+        bo.GetByListId(param);
+
+        if (param.ProductInCarts != null && param.ProductInCarts.Any())
+        {
+            foreach (var item in param.ProductInCarts)
+            {
+                var prop = myCart.ListCart.Where(i => i.Id == item.Id).FirstOrDefault();
+                if (prop != null && prop.Id > 0)
+                {
+                    item.Number = prop.Number;
+                    item.TotalPrice = (long)(item.Number * item.Price);
+                    param.TotalProductInCart += item.Number;
+                    param.TotalPriceInCart += item.TotalPrice;
+                }
+            }
+        }
+    }
+}
+<div class="desktop-cart-wrapper1" id="view-top-cart-mobile">
+    <a href="javascript:;" onclick="document.getElementById('top-cart-mobile').style.display='block'" class="hd-cart"><i class="fas fa-shopping-bag"></i><span class="hd-cart-count">@param.TotalProductInCart</span></a>
+    @if (param.TotalProductInCart > 0)
+    {
+        <div class="quickview-cart" id="top-cart-mobile">
+            <h3>
+                Giỏ hàng của tôi (@param.TotalProductInCart sản phẩm)
+                <span class="btnCloseQVCart" onclick="document.getElementById('top-cart-mobile').style.display='none'"><svg class="svg-inline--fa fa-times fa-w-12" aria-hidden="true" data-prefix="fa" data-icon="times" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M323.1 441l53.9-53.9c9.4-9.4 9.4-24.5 0-33.9L279.8 256l97.2-97.2c9.4-9.4 9.4-24.5 0-33.9L323.1 71c-9.4-9.4-24.5-9.4-33.9 0L192 168.2 94.8 71c-9.4-9.4-24.5-9.4-33.9 0L7 124.9c-9.4 9.4-9.4 24.5 0 33.9l97.2 97.2L7 353.2c-9.4 9.4-9.4 24.5 0 33.9L60.9 441c9.4 9.4 24.5 9.4 33.9 0l97.2-97.2 97.2 97.2c9.3 9.3 24.5 9.3 33.9 0z"></path></svg><!-- <i class="fa fa-times" aria-hidden="true"></i> --></span>
+            </h3>
+            <ul class="no-bullets">
+                @for (int i = 0; i < param.ProductInCarts.Count; i++)
+                {
+                    var item = param.ProductInCarts[i];
+                    <li class="cart-item" data-id="@item.Id">
+                        <a href="javascript:;" rel="nofollow" class="cart__remove" onclick="removeCart2('/front/Cart/Remove',this);"><svg class="svg-inline--fa fa-times fa-w-12" aria-hidden="true" data-prefix="fa" data-icon="times" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M323.1 441l53.9-53.9c9.4-9.4 9.4-24.5 0-33.9L279.8 256l97.2-97.2c9.4-9.4 9.4-24.5 0-33.9L323.1 71c-9.4-9.4-24.5-9.4-33.9 0L192 168.2 94.8 71c-9.4-9.4-24.5-9.4-33.9 0L7 124.9c-9.4 9.4-9.4 24.5 0 33.9l97.2 97.2L7 353.2c-9.4 9.4-9.4 24.5 0 33.9L60.9 441c9.4 9.4 24.5 9.4 33.9 0l97.2-97.2 97.2 97.2c9.3 9.3 24.5 9.3 33.9 0z"></path></svg><!-- <i class="fa fa-times" aria-hidden="true"></i> --></a>
+                        <div class="grid mg-left-15">
+                            <div class="grid__item large--four-twelfths medium--four-twelfths small--four-twelfths pd-left15">
+                                <div class="cart-item-img text-center">
+                                    <a href="javascript:;" rel="nofollow">
+
+                                        <img src="@item.FirstAvatar.ChangeThumbSize(100,0)" alt="@item.Name.EncodeTitle()">
+
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="grid__item large--eight-twelfths medium--eight-twelfths small--eight-twelfths pd-left15">
+                                <div class="cart-item-info text-left">
+                                    <a href="javascript:;" rel="nofollow">@item.Name</a>
+
+                                </div>
+                                <div class="cart-item-price-quantity text-left">
+                                    <span class="quantity">Số lượng: @item.Number</span>
+                                    <span class="current-price currency-format">Giá/sp: @item.Price</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                }
+            </ul>
+
+            <div class="qv-cart-total">
+                Tạm tính: <span class="currency-format">@param.TotalPriceInCart</span>
+            </div>
+            <div class="quickview-cartactions clearfix">
+                <a href="/gio-hang.html">Xem giỏ hàng</a>
+                <a href="/dat-hang.html">Thanh toán</a>
+            </div>
+
+        </div>
+    }
+    else
+    {
+
+        <div class="quickview-cart" id="top-cart-mobile">
+            <h3>Giỏ hàng trống<span class="btnCloseQVCart" onclick="document.getElementById('top-cart-mobile').style.display='none'"><i class="fa fa-times" aria-hidden="true"></i></span></h3>
+            <ul class="no-bullets">
+                <li>Bạn chưa có sản phẩm nào trong giỏ hàng!</li>
+            </ul>
+        </div>
+    }
+</div>

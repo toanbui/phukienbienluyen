@@ -1,0 +1,122 @@
+C:\Users\Toan\source\repos\MvcProject\BO\obj\Debug\BO.csprojAssemblyReference.cache
+C:\Users\Toan\source\repos\MvcProject\BO\obj\Debug\BO.csproj.CoreCompileInputs.cache
+C:\Users\Toan\source\repos\MvcProject\BO\bin\Debug\BO.dll
+C:\Users\Toan\source\repos\MvcProject\BO\bin\Debug\BO.pdb
+C:\Users\Toan\source\repos\MvcProject\BO\bin\Debug\Entities.dll
+C:\Users\Toan\source\repos\MvcProject\BO\bin\Debug\Utilities.dll
+C:\Users\Toan\source\repos\MvcProject\BO\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Toan\source\repos\MvcProject\BO\bin\Debug\Entities.pdb
+C:\Users\Toan\source\repos\MvcProject\BO\bin\Debug\Utilities.pdb
+C:\Users\Toan\source\repos\MvcProject\BO\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Toan\source\repos\MvcProject\BO\obj\Debug\BO.csproj.CopyComplete
+C:\Users\Toan\source\repos\MvcProject\BO\obj\Debug\BO.dll
+C:\Users\Toan\source\repos\MvcProject\BO\obj\Debug\BO.pdb
+C:\Users\Toan\source\repos\MvcProject\BO\bin\Debug\System.Web.Mvc.dll
+C:\Users\Toan\source\repos\MvcProject\BO\bin\Debug\System.Web.WebPages.dll
+C:\Users\Toan\source\repos\MvcProject\BO\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Toan\source\repos\MvcProject\BO\bin\Debug\System.Web.Razor.dll
+C:\Users\Toan\source\repos\MvcProject\BO\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Toan\source\repos\MvcProject\BO\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Toan\source\repos\MvcProject\BO\bin\Debug\System.Web.WebPages.xml
+C:\Users\Toan\source\repos\MvcProject\BO\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Toan\source\repos\MvcProject\BO\bin\Debug\System.Web.Razor.xml
+C:\Users\Toan\source\repos\MvcProject\BO\bin\Debug\System.Web.WebPages.Deployment.xml
+E:\Working\MvcProject\BO\bin\Debug\BO.dll
+E:\Working\MvcProject\BO\bin\Debug\BO.pdb
+E:\Working\MvcProject\BO\bin\Debug\DAO.dll
+E:\Working\MvcProject\BO\bin\Debug\Entities.dll
+E:\Working\MvcProject\BO\bin\Debug\Newtonsoft.Json.dll
+E:\Working\MvcProject\BO\bin\Debug\Utilities.dll
+E:\Working\MvcProject\BO\bin\Debug\System.Web.Mvc.dll
+E:\Working\MvcProject\BO\bin\Debug\System.Web.WebPages.dll
+E:\Working\MvcProject\BO\bin\Debug\System.Web.WebPages.Razor.dll
+E:\Working\MvcProject\BO\bin\Debug\System.Web.Razor.dll
+E:\Working\MvcProject\BO\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\Working\MvcProject\BO\bin\Debug\System.Web.WebPages.Deployment.dll
+E:\Working\MvcProject\BO\bin\Debug\DAO.pdb
+E:\Working\MvcProject\BO\bin\Debug\DAO.dll.config
+E:\Working\MvcProject\BO\bin\Debug\Entities.pdb
+E:\Working\MvcProject\BO\bin\Debug\Entities.dll.config
+E:\Working\MvcProject\BO\bin\Debug\Utilities.pdb
+E:\Working\MvcProject\BO\bin\Debug\Newtonsoft.Json.xml
+E:\Working\MvcProject\BO\bin\Debug\System.Web.WebPages.xml
+E:\Working\MvcProject\BO\bin\Debug\System.Web.WebPages.Razor.xml
+E:\Working\MvcProject\BO\bin\Debug\System.Web.Razor.xml
+E:\Working\MvcProject\BO\bin\Debug\System.Web.WebPages.Deployment.xml
+E:\Working\MvcProject\BO\obj\Debug\BO.csprojAssemblyReference.cache
+E:\Working\MvcProject\BO\obj\Debug\BO.csproj.CoreCompileInputs.cache
+E:\Working\MvcProject\BO\obj\Debug\BO.csproj.CopyComplete
+E:\Working\MvcProject\BO\obj\Debug\BO.dll
+E:\Working\MvcProject\BO\obj\Debug\BO.pdb
+E:\Working\MvcProject\BO\bin\Debug\ExcelDataReader.dll
+E:\Working\MvcProject\BO\bin\Debug\ExcelDataReader.pdb
+E:\Working\MvcProject\BO\bin\Debug\ExcelDataReader.xml
+E:\Working\MvcProject\BO\bin\Debug\ExcelDataReader.DataSet.dll
+E:\Working\MvcProject\BO\bin\Debug\ExcelDataReader.DataSet.pdb
+E:\Working\MvcProject\BO\bin\Debug\ExcelDataReader.DataSet.xml
+E:\Working\Team Foundation Server\WebBien\BO\bin\Debug\BO.dll
+E:\Working\Team Foundation Server\WebBien\BO\bin\Debug\BO.pdb
+E:\Working\Team Foundation Server\WebBien\BO\bin\Debug\DAO.dll
+E:\Working\Team Foundation Server\WebBien\BO\bin\Debug\Entities.dll
+E:\Working\Team Foundation Server\WebBien\BO\bin\Debug\Newtonsoft.Json.dll
+E:\Working\Team Foundation Server\WebBien\BO\bin\Debug\Utilities.dll
+E:\Working\Team Foundation Server\WebBien\BO\bin\Debug\System.Web.Mvc.dll
+E:\Working\Team Foundation Server\WebBien\BO\bin\Debug\ExcelDataReader.dll
+E:\Working\Team Foundation Server\WebBien\BO\bin\Debug\ExcelDataReader.DataSet.dll
+E:\Working\Team Foundation Server\WebBien\BO\bin\Debug\System.Web.WebPages.dll
+E:\Working\Team Foundation Server\WebBien\BO\bin\Debug\System.Web.WebPages.Razor.dll
+E:\Working\Team Foundation Server\WebBien\BO\bin\Debug\System.Web.Razor.dll
+E:\Working\Team Foundation Server\WebBien\BO\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\Working\Team Foundation Server\WebBien\BO\bin\Debug\System.Web.WebPages.Deployment.dll
+E:\Working\Team Foundation Server\WebBien\BO\bin\Debug\DAO.pdb
+E:\Working\Team Foundation Server\WebBien\BO\bin\Debug\DAO.dll.config
+E:\Working\Team Foundation Server\WebBien\BO\bin\Debug\Entities.pdb
+E:\Working\Team Foundation Server\WebBien\BO\bin\Debug\Entities.dll.config
+E:\Working\Team Foundation Server\WebBien\BO\bin\Debug\Utilities.pdb
+E:\Working\Team Foundation Server\WebBien\BO\bin\Debug\Newtonsoft.Json.xml
+E:\Working\Team Foundation Server\WebBien\BO\bin\Debug\ExcelDataReader.pdb
+E:\Working\Team Foundation Server\WebBien\BO\bin\Debug\ExcelDataReader.xml
+E:\Working\Team Foundation Server\WebBien\BO\bin\Debug\ExcelDataReader.DataSet.pdb
+E:\Working\Team Foundation Server\WebBien\BO\bin\Debug\ExcelDataReader.DataSet.xml
+E:\Working\Team Foundation Server\WebBien\BO\bin\Debug\System.Web.WebPages.xml
+E:\Working\Team Foundation Server\WebBien\BO\bin\Debug\System.Web.WebPages.Razor.xml
+E:\Working\Team Foundation Server\WebBien\BO\bin\Debug\System.Web.Razor.xml
+E:\Working\Team Foundation Server\WebBien\BO\bin\Debug\System.Web.WebPages.Deployment.xml
+E:\Working\Team Foundation Server\WebBien\BO\obj\Debug\BO.csprojAssemblyReference.cache
+E:\Working\Team Foundation Server\WebBien\BO\obj\Debug\BO.csproj.CoreCompileInputs.cache
+E:\Working\Team Foundation Server\WebBien\BO\obj\Debug\BO.csproj.CopyComplete
+E:\Working\Team Foundation Server\WebBien\BO\obj\Debug\BO.dll
+E:\Working\Team Foundation Server\WebBien\BO\obj\Debug\BO.pdb
+D:\Code\TFS\WebBien\BO\bin\Debug\BO.dll
+D:\Code\TFS\WebBien\BO\bin\Debug\BO.pdb
+D:\Code\TFS\WebBien\BO\bin\Debug\DAO.dll
+D:\Code\TFS\WebBien\BO\bin\Debug\Entities.dll
+D:\Code\TFS\WebBien\BO\bin\Debug\Newtonsoft.Json.dll
+D:\Code\TFS\WebBien\BO\bin\Debug\Utilities.dll
+D:\Code\TFS\WebBien\BO\bin\Debug\System.Web.Mvc.dll
+D:\Code\TFS\WebBien\BO\bin\Debug\ExcelDataReader.dll
+D:\Code\TFS\WebBien\BO\bin\Debug\ExcelDataReader.DataSet.dll
+D:\Code\TFS\WebBien\BO\bin\Debug\System.Web.WebPages.dll
+D:\Code\TFS\WebBien\BO\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Code\TFS\WebBien\BO\bin\Debug\System.Web.Razor.dll
+D:\Code\TFS\WebBien\BO\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Code\TFS\WebBien\BO\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Code\TFS\WebBien\BO\bin\Debug\DAO.pdb
+D:\Code\TFS\WebBien\BO\bin\Debug\DAO.dll.config
+D:\Code\TFS\WebBien\BO\bin\Debug\Entities.pdb
+D:\Code\TFS\WebBien\BO\bin\Debug\Entities.dll.config
+D:\Code\TFS\WebBien\BO\bin\Debug\Utilities.pdb
+D:\Code\TFS\WebBien\BO\bin\Debug\Newtonsoft.Json.xml
+D:\Code\TFS\WebBien\BO\bin\Debug\ExcelDataReader.pdb
+D:\Code\TFS\WebBien\BO\bin\Debug\ExcelDataReader.xml
+D:\Code\TFS\WebBien\BO\bin\Debug\ExcelDataReader.DataSet.pdb
+D:\Code\TFS\WebBien\BO\bin\Debug\ExcelDataReader.DataSet.xml
+D:\Code\TFS\WebBien\BO\bin\Debug\System.Web.WebPages.xml
+D:\Code\TFS\WebBien\BO\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Code\TFS\WebBien\BO\bin\Debug\System.Web.Razor.xml
+D:\Code\TFS\WebBien\BO\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Code\TFS\WebBien\BO\obj\Debug\BO.csprojAssemblyReference.cache
+D:\Code\TFS\WebBien\BO\obj\Debug\BO.csproj.CoreCompileInputs.cache
+D:\Code\TFS\WebBien\BO\obj\Debug\BO.csproj.CopyComplete
+D:\Code\TFS\WebBien\BO\obj\Debug\BO.dll
+D:\Code\TFS\WebBien\BO\obj\Debug\BO.pdb

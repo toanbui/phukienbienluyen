@@ -1,0 +1,98 @@
+﻿using DAO.Base;
+using Entities.Entities;
+using Entities.Param;
+using System.Linq;
+
+namespace DAO
+{
+    public class [TABLE_NAME]Dao : DaoBase
+    {
+        #region Action
+        public int Insert([TABLE_NAME] item)
+        {
+            using (var dbContext = DaoContext())
+            {
+                dbContext.[TABLE_NAME]s.InsertOnSubmit(item);
+                dbContext.SubmitChanges();
+                return item.Id;
+            }
+        }
+        public void Update([TABLE_NAME] item)
+        {
+            using (var dbContext = DaoContext())
+            {
+                var dbItem = dbContext.[TABLE_NAME]s.FirstOrDefault(sitem => sitem.Id == item.Id);
+                if (dbItem != null)
+                {
+                    [DB_UPDATE]
+					dbContext.SubmitChanges();
+                }
+            }
+        }
+
+        public bool Delete([TABLE_NAME] item)
+        {
+            using (var dbContext = DaoContext())
+            {
+                var dbItem = dbContext.[TABLE_NAME]s.FirstOrDefault(en => en.Id == item.Id);
+
+                if (dbItem != null)
+                {
+                    dbContext.[TABLE_NAME]s.DeleteOnSubmit(dbItem);
+                    dbContext.SubmitChanges();
+                }
+            }
+            return true;
+        }
+        //public bool DeleteUpdate(NewsEntity item)
+        //{
+        //    using (var dbContext = DaoContext())
+        //    {
+        //        var dbItem = dbContext.News.FirstOrDefault(en => en.NewsId == item.NewsId);
+        //        if (dbItem != null)
+        //        {
+        //            dbContext.SubmitChanges();
+        //        }
+        //    }
+        //    return true;
+        //}
+        #endregion
+        #region Query
+        public void Search([TABLE_NAME]Param param)
+        {
+            var filter = param.[TABLE_NAME]Filter;
+            using (var dbContext = new CoreDataContext(ConnectionString))
+            {
+                var query = from n in dbContext.[TABLE_NAME]s
+                            where (filter.Id.HasValue == false || n.Id == filter.Id)
+                            && (string.IsNullOrEmpty(filter.keysearch) || n.Name.ToLower().Contains(filter.keysearch.ToLower()))
+                            && (filter.Status.HasValue  == false || filter.Status == n.Status)
+							orderby !filter.OrderDateDesc ? null : n.Created descending , filter.OrderDateDesc ? null : n.Created ascending
+                            select new [TABLE_NAME]Entity
+                            {
+                                [DB_GET]
+                            };
+
+                if (param.PagingInfo != null)
+                {
+                    param.PagingInfo.RecordCount = query.Count();
+                    param.[TABLE_NAME]Entitys = query.Skip(param.PagingInfo.RowStart).Take(param.PagingInfo.PageSize).ToList();
+                }
+                else
+                {
+                    param.[TABLE_NAME]Entitys = query.ToList();
+                }
+            }
+        }
+        public void GetById([TABLE_NAME]Param param)
+        {
+            Search(param);
+            if (param.[TABLE_NAME]Entitys != null && param.[TABLE_NAME]Entitys.Any())
+            {
+                param.[TABLE_NAME] = param.[TABLE_NAME]Entitys.FirstOrDefault();
+                param.[TABLE_NAME]Entity = param.[TABLE_NAME]Entitys.FirstOrDefault();
+            }
+        }
+        #endregion
+    }
+}

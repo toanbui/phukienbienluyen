@@ -1,0 +1,181 @@
+C:\Users\Toan\source\repos\MvcProject\CacheHelper\bin\Debug\CacheHelper.dll
+C:\Users\Toan\source\repos\MvcProject\CacheHelper\bin\Debug\CacheHelper.pdb
+C:\Users\Toan\source\repos\MvcProject\CacheHelper\bin\Debug\Utilities.dll
+C:\Users\Toan\source\repos\MvcProject\CacheHelper\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Toan\source\repos\MvcProject\CacheHelper\bin\Debug\System.Web.Mvc.dll
+C:\Users\Toan\source\repos\MvcProject\CacheHelper\bin\Debug\System.Web.WebPages.dll
+C:\Users\Toan\source\repos\MvcProject\CacheHelper\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Toan\source\repos\MvcProject\CacheHelper\bin\Debug\System.Web.Razor.dll
+C:\Users\Toan\source\repos\MvcProject\CacheHelper\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Toan\source\repos\MvcProject\CacheHelper\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Toan\source\repos\MvcProject\CacheHelper\bin\Debug\Utilities.pdb
+C:\Users\Toan\source\repos\MvcProject\CacheHelper\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Toan\source\repos\MvcProject\CacheHelper\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Toan\source\repos\MvcProject\CacheHelper\bin\Debug\System.Web.WebPages.xml
+C:\Users\Toan\source\repos\MvcProject\CacheHelper\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Toan\source\repos\MvcProject\CacheHelper\bin\Debug\System.Web.Razor.xml
+C:\Users\Toan\source\repos\MvcProject\CacheHelper\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Toan\source\repos\MvcProject\CacheHelper\obj\Debug\CacheHelper.csprojAssemblyReference.cache
+C:\Users\Toan\source\repos\MvcProject\CacheHelper\obj\Debug\CacheHelper.csproj.CoreCompileInputs.cache
+C:\Users\Toan\source\repos\MvcProject\CacheHelper\obj\Debug\CacheHelper.csproj.CopyComplete
+C:\Users\Toan\source\repos\MvcProject\CacheHelper\obj\Debug\CacheHelper.dll
+C:\Users\Toan\source\repos\MvcProject\CacheHelper\obj\Debug\CacheHelper.pdb
+E:\Working\MvcProject\CacheHelper\bin\Debug\CacheHelper.dll
+E:\Working\MvcProject\CacheHelper\bin\Debug\CacheHelper.pdb
+E:\Working\MvcProject\CacheHelper\bin\Debug\Enyim.Caching.dll
+E:\Working\MvcProject\CacheHelper\bin\Debug\ServiceStack.Caching.Memcached.dll
+E:\Working\MvcProject\CacheHelper\bin\Debug\ServiceStack.Client.dll
+E:\Working\MvcProject\CacheHelper\bin\Debug\ServiceStack.Common.dll
+E:\Working\MvcProject\CacheHelper\bin\Debug\ServiceStack.dll
+E:\Working\MvcProject\CacheHelper\bin\Debug\ServiceStack.Interfaces.dll
+E:\Working\MvcProject\CacheHelper\bin\Debug\ServiceStack.Text.dll
+E:\Working\MvcProject\CacheHelper\bin\Debug\System.Buffers.dll
+E:\Working\MvcProject\CacheHelper\bin\Debug\System.Memory.dll
+E:\Working\MvcProject\CacheHelper\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Working\MvcProject\CacheHelper\bin\Debug\System.ValueTuple.dll
+E:\Working\MvcProject\CacheHelper\bin\Debug\Utilities.dll
+E:\Working\MvcProject\CacheHelper\bin\Debug\System.Web.Mvc.dll
+E:\Working\MvcProject\CacheHelper\bin\Debug\Newtonsoft.Json.dll
+E:\Working\MvcProject\CacheHelper\bin\Debug\System.Web.WebPages.dll
+E:\Working\MvcProject\CacheHelper\bin\Debug\System.Web.WebPages.Razor.dll
+E:\Working\MvcProject\CacheHelper\bin\Debug\System.Web.Razor.dll
+E:\Working\MvcProject\CacheHelper\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\Working\MvcProject\CacheHelper\bin\Debug\System.Web.WebPages.Deployment.dll
+E:\Working\MvcProject\CacheHelper\bin\Debug\Utilities.pdb
+E:\Working\MvcProject\CacheHelper\bin\Debug\Enyim.Caching.xml
+E:\Working\MvcProject\CacheHelper\bin\Debug\ServiceStack.xml
+E:\Working\MvcProject\CacheHelper\bin\Debug\ServiceStack.Caching.Memcached.xml
+E:\Working\MvcProject\CacheHelper\bin\Debug\ServiceStack.Client.xml
+E:\Working\MvcProject\CacheHelper\bin\Debug\ServiceStack.Common.xml
+E:\Working\MvcProject\CacheHelper\bin\Debug\ServiceStack.Interfaces.xml
+E:\Working\MvcProject\CacheHelper\bin\Debug\ServiceStack.Text.xml
+E:\Working\MvcProject\CacheHelper\bin\Debug\System.Buffers.xml
+E:\Working\MvcProject\CacheHelper\bin\Debug\System.Memory.xml
+E:\Working\MvcProject\CacheHelper\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\Working\MvcProject\CacheHelper\bin\Debug\System.ValueTuple.xml
+E:\Working\MvcProject\CacheHelper\bin\Debug\Newtonsoft.Json.pdb
+E:\Working\MvcProject\CacheHelper\bin\Debug\Newtonsoft.Json.xml
+E:\Working\MvcProject\CacheHelper\bin\Debug\System.Web.WebPages.xml
+E:\Working\MvcProject\CacheHelper\bin\Debug\System.Web.WebPages.Razor.xml
+E:\Working\MvcProject\CacheHelper\bin\Debug\System.Web.Razor.xml
+E:\Working\MvcProject\CacheHelper\bin\Debug\System.Web.WebPages.Deployment.xml
+E:\Working\MvcProject\CacheHelper\obj\Debug\CacheHelper.csprojAssemblyReference.cache
+E:\Working\MvcProject\CacheHelper\obj\Debug\CacheHelper.csproj.CoreCompileInputs.cache
+E:\Working\MvcProject\CacheHelper\obj\Debug\CacheHelper.csproj.CopyComplete
+E:\Working\MvcProject\CacheHelper\obj\Debug\CacheHelper.dll
+E:\Working\MvcProject\CacheHelper\obj\Debug\CacheHelper.pdb
+E:\Working\MvcProject\CacheHelper\bin\Debug\Entities.dll
+E:\Working\MvcProject\CacheHelper\bin\Debug\Entities.pdb
+E:\Working\MvcProject\CacheHelper\bin\Debug\Entities.dll.config
+E:\Working\MvcProject\CacheHelper\bin\Debug\ExcelDataReader.dll
+E:\Working\MvcProject\CacheHelper\bin\Debug\ExcelDataReader.pdb
+E:\Working\MvcProject\CacheHelper\bin\Debug\ExcelDataReader.xml
+E:\Working\MvcProject\CacheHelper\bin\Debug\ExcelDataReader.DataSet.dll
+E:\Working\MvcProject\CacheHelper\bin\Debug\ExcelDataReader.DataSet.pdb
+E:\Working\MvcProject\CacheHelper\bin\Debug\ExcelDataReader.DataSet.xml
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\CacheHelper.dll
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\CacheHelper.pdb
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\Enyim.Caching.dll
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\ServiceStack.Caching.Memcached.dll
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\ServiceStack.Client.dll
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\ServiceStack.Common.dll
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\ServiceStack.dll
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\ServiceStack.Interfaces.dll
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\ServiceStack.Text.dll
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\System.Buffers.dll
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\System.Memory.dll
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\System.ValueTuple.dll
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\Utilities.dll
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\Entities.dll
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\System.Web.Mvc.dll
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\Newtonsoft.Json.dll
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\ExcelDataReader.dll
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\ExcelDataReader.DataSet.dll
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\System.Web.WebPages.dll
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\System.Web.WebPages.Razor.dll
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\System.Web.Razor.dll
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\System.Web.WebPages.Deployment.dll
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\Utilities.pdb
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\Enyim.Caching.xml
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\ServiceStack.xml
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\ServiceStack.Caching.Memcached.xml
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\ServiceStack.Client.xml
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\ServiceStack.Common.xml
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\ServiceStack.Interfaces.xml
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\ServiceStack.Text.xml
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\System.Buffers.xml
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\System.Memory.xml
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\System.ValueTuple.xml
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\Entities.pdb
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\Entities.dll.config
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\Newtonsoft.Json.pdb
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\Newtonsoft.Json.xml
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\ExcelDataReader.pdb
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\ExcelDataReader.xml
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\ExcelDataReader.DataSet.pdb
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\ExcelDataReader.DataSet.xml
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\System.Web.WebPages.xml
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\System.Web.WebPages.Razor.xml
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\System.Web.Razor.xml
+E:\Working\Team Foundation Server\WebBien\CacheHelper\bin\Debug\System.Web.WebPages.Deployment.xml
+E:\Working\Team Foundation Server\WebBien\CacheHelper\obj\Debug\CacheHelper.csprojAssemblyReference.cache
+E:\Working\Team Foundation Server\WebBien\CacheHelper\obj\Debug\CacheHelper.csproj.CoreCompileInputs.cache
+E:\Working\Team Foundation Server\WebBien\CacheHelper\obj\Debug\CacheHelper.csproj.CopyComplete
+E:\Working\Team Foundation Server\WebBien\CacheHelper\obj\Debug\CacheHelper.dll
+E:\Working\Team Foundation Server\WebBien\CacheHelper\obj\Debug\CacheHelper.pdb
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\CacheHelper.dll
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\CacheHelper.pdb
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\Enyim.Caching.dll
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\ServiceStack.Caching.Memcached.dll
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\ServiceStack.Client.dll
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\ServiceStack.Common.dll
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\ServiceStack.dll
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\ServiceStack.Interfaces.dll
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\ServiceStack.Text.dll
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\System.Buffers.dll
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\System.Memory.dll
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\System.ValueTuple.dll
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\Utilities.dll
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\Entities.dll
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\System.Web.Mvc.dll
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\Newtonsoft.Json.dll
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\ExcelDataReader.dll
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\ExcelDataReader.DataSet.dll
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\System.Web.WebPages.dll
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\System.Web.Razor.dll
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\Utilities.pdb
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\Enyim.Caching.xml
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\ServiceStack.xml
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\ServiceStack.Caching.Memcached.xml
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\ServiceStack.Client.xml
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\ServiceStack.Common.xml
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\ServiceStack.Interfaces.xml
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\ServiceStack.Text.xml
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\System.Buffers.xml
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\System.Memory.xml
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\System.ValueTuple.xml
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\Entities.pdb
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\Entities.dll.config
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\Newtonsoft.Json.pdb
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\Newtonsoft.Json.xml
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\ExcelDataReader.pdb
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\ExcelDataReader.xml
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\ExcelDataReader.DataSet.pdb
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\ExcelDataReader.DataSet.xml
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\System.Web.WebPages.xml
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\System.Web.Razor.xml
+D:\Code\TFS\WebBien\CacheHelper\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Code\TFS\WebBien\CacheHelper\obj\Debug\CacheHelper.csprojAssemblyReference.cache
+D:\Code\TFS\WebBien\CacheHelper\obj\Debug\CacheHelper.csproj.CoreCompileInputs.cache
+D:\Code\TFS\WebBien\CacheHelper\obj\Debug\CacheHelper.csproj.CopyComplete
+D:\Code\TFS\WebBien\CacheHelper\obj\Debug\CacheHelper.dll
+D:\Code\TFS\WebBien\CacheHelper\obj\Debug\CacheHelper.pdb

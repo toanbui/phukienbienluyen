@@ -1,0 +1,44 @@
+﻿@model Entities.Param.LiveChatHistoryParam
+@using Entities.Entities
+@{
+    ViewBag.Title = "";
+    ViewBag.Description = "";
+}
+<script src="~/Scripts/Admin/inputmask.js"></script>
+<script src="~/Scripts/Admin/jquery.inputmask.js"></script>
+<script src="~/Scripts/Admin/form-mask.js"></script>
+<script src="~/Scripts/Admin/createInit.js"></script>
+
+<div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title">Thông tin</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        @using (Html.BeginForm("Create", "LiveChatHistory", FormMethod.Post, new { @class = "form-horizontal", @data_parsley_type = "", id = "frCreate", @role = "form" }))
+        {
+            @Html.AntiForgeryToken()
+            @Html.HiddenFor(x => x.LiveChatHistory.Id)
+			@Html.HiddenFor(x => x.LiveChatHistory.Created)
+            @Html.HiddenFor(x => x.LiveChatHistory.CreatedBy)
+
+            <div class="modal-body p-b-0">
+                <div class="form-group row"> <label class="col-sm-2 col-form-label">Sender</label> <div class="col-sm-10 "> @Html.TextBoxFor(x => x.LiveChatHistory.Sender, new { @class = "col-xs-12 col-sm-12 form-control", @placeholder = "" }) </div> </div>
+<div class="form-group row"> <label class="col-sm-2 col-form-label">SenderName</label> <div class="col-sm-10 "> @Html.TextBoxFor(x => x.LiveChatHistory.SenderName, new { @class = "col-xs-12 col-sm-12 form-control", @placeholder = "" }) </div> </div>
+<div class="form-group row"> <label class="col-sm-2 col-form-label">Recieved</label> <div class="col-sm-10 "> @Html.TextBoxFor(x => x.LiveChatHistory.Recieved, new { @class = "col-xs-12 col-sm-12 form-control", @placeholder = "" }) </div> </div>
+<div class="form-group row"> <label class="col-sm-2 col-form-label">RecievedName</label> <div class="col-sm-10 "> @Html.TextBoxFor(x => x.LiveChatHistory.RecievedName, new { @class = "col-xs-12 col-sm-12 form-control", @placeholder = "" }) </div> </div>
+<div class="form-group row"> <label class="col-sm-2 col-form-label">FileName</label> <div class="col-sm-10 "> @Html.TextBoxFor(x => x.LiveChatHistory.FileName, new { @class = "col-xs-12 col-sm-12 form-control", @placeholder = "" }) </div> </div>
+<div class="form-group row"> <label class="col-sm-2 col-form-label">FilePath</label> <div class="col-sm-10 "> @Html.TextBoxFor(x => x.LiveChatHistory.FilePath, new { @class = "col-xs-12 col-sm-12 form-control", @placeholder = "" }) </div> </div>
+<div class="form-group row"> <label class="col-sm-2 col-form-label">Message</label> <div class="col-sm-10 "> @Html.TextBoxFor(x => x.LiveChatHistory.Message, new { @class = "col-xs-12 col-sm-12 form-control", @placeholder = "" }) </div> </div>
+<div class="form-group row"> <label class="col-sm-2 col-form-label">GroupName</label> <div class="col-sm-10 "> @Html.TextBoxFor(x => x.LiveChatHistory.GroupName, new { @class = "col-xs-12 col-sm-12 form-control", @placeholder = "" }) </div> </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" onclick="sendCreate('@Url.Action("Create", "LiveChatHistory")')" class="btn btn-primary">Lưu</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Hủy</button>
+            </div>
+        }
+    </div>
+</div>

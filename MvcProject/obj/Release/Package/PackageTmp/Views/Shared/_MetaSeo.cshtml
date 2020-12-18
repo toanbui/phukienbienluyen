@@ -1,0 +1,19 @@
+﻿@using Entities.Entities
+@using Utilities
+
+@Html.Raw(ViewBag.MetaSeo)
+<meta property="og:type" content="article" />
+<meta property="og:url" content="@(!string.IsNullOrEmpty(ViewBag.OgUrl) ? ViewBag.OgUrl : (Config.DOMAIN + Context.Request.QueryString["url"]))" />
+@if (!string.IsNullOrEmpty(ViewBag.OgImage))
+{
+    <meta property="og:image" content="@ViewBag.OgImage" />
+    <meta property="og:image:type" content="image/jpg" />
+    <meta property="og:image:width" content="600" />
+    <meta property="og:image:height" content="315" />
+}
+@if (!string.IsNullOrEmpty(ViewBag.Canonical))
+{
+    <link rel="canonical" href="@ViewBag.Canonical" />}
+else
+{
+    <link rel="canonical" href="@(Config.DOMAIN + Context.Request.QueryString["url"])" />}

@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{03760EBB-B4B4-48F6-A66A-68EADAA4BDC9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Entities</RootNamespace>
+    <AssemblyName>Entities</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\BaseParam.cs" />
+    <Compile Include="Configs\RulesConfig.cs" />
+    <Compile Include="Entities\AdsPositionEntity.cs" />
+    <Compile Include="Entities\AdvertisingEntity.cs" />
+    <Compile Include="Entities\ArticleEntity.cs" />
+    <Compile Include="Entities\AspNetUserRolesEntity.cs" />
+    <Compile Include="Entities\CartOrderEntity.cs" />
+    <Compile Include="Entities\ConfigurationEntity.cs" />
+    <Compile Include="Entities\Core.designer.cs">
+      <DependentUpon>Core.dbml</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Entities\AspNetRolesEntity.cs" />
+    <Compile Include="Entities\AspNetUsersEntity.cs" />
+    <Compile Include="Entities\CustomerToolsEntity.cs" />
+    <Compile Include="Entities\DistrictEntity.cs" />
+    <Compile Include="Entities\FrontEnd\CartEntity.cs" />
+    <Compile Include="Entities\LiveChatHistoryEntity.cs" />
+    <Compile Include="Entities\MenuEntity.cs" />
+    <Compile Include="Entities\ProductEntity.cs" />
+    <Compile Include="Entities\ProductPropsEntity.cs" />
+    <Compile Include="Entities\ProductZoneEntity.cs" />
+    <Compile Include="Entities\PropsOfProductEntity.cs" />
+    <Compile Include="Entities\ProvinceEntity.cs" />
+    <Compile Include="Entities\SysMenuEntity.cs" />
+    <Compile Include="Entities\NewsEntity.cs" />
+    <Compile Include="Entities\TagEntity.cs" />
+    <Compile Include="Entities\TagInNewsEntity.cs" />
+    <Compile Include="Entities\UserInLiveChatEntity.cs" />
+    <Compile Include="Filter\AdsPositionFilter.cs" />
+    <Compile Include="Filter\AdvertisingFilter.cs" />
+    <Compile Include="Filter\ArticleFilter.cs" />
+    <Compile Include="Filter\AspNetUserRolesFilter.cs" />
+    <Compile Include="Filter\AspNetUsersFilter.cs" />
+    <Compile Include="Filter\AspNetRolesFilter.cs" />
+    <Compile Include="Filter\CartOrderFilter.cs" />
+    <Compile Include="Filter\ConfigurationFilter.cs" />
+    <Compile Include="Filter\CustomerToolsFilter.cs" />
+    <Compile Include="Filter\DistrictFilter.cs" />
+    <Compile Include="Filter\LiveChatHistoryFilter.cs" />
+    <Compile Include="Filter\MenuFilter.cs" />
+    <Compile Include="Filter\ProductFilter.cs" />
+    <Compile Include="Filter\ProductPropsFilter.cs" />
+    <Compile Include="Filter\ProductZoneFilter.cs" />
+    <Compile Include="Filter\PropsOfProductFilter.cs" />
+    <Compile Include="Filter\ProvinceFilter.cs" />
+    <Compile Include="Filter\SysMenuFilter.cs" />
+    <Compile Include="Filter\TagFilter.cs" />
+    <Compile Include="Filter\TagInNewsFilter.cs" />
+    <Compile Include="Filter\UserInLiveChatFilter.cs" />
+    <Compile Include="Param\AdsPositionParam.cs" />
+    <Compile Include="Param\AdvertisingParam.cs" />
+    <Compile Include="Param\ArticleParam.cs" />
+    <Compile Include="Param\AspNetUserRolesParam.cs" />
+    <Compile Include="Param\AspNetUsersParam.cs" />
+    <Compile Include="Param\AspNetRolesParam.cs" />
+    <Compile Include="Param\CartOrderParam.cs" />
+    <Compile Include="Param\ConfigurationParam.cs" />
+    <Compile Include="Param\CustomerToolsParam.cs" />
+    <Compile Include="Param\DistrictParam.cs" />
+    <Compile Include="Param\FrontEnd\HomeModel.cs" />
+    <Compile Include="Param\FrontEnd\CheckOutModel.cs" />
+    <Compile Include="Param\FrontEnd\NewsModel.cs" />
+    <Compile Include="Param\LiveChatHistoryParam.cs" />
+    <Compile Include="Param\MenuParam.cs" />
+    <Compile Include="Param\ProductParam.cs" />
+    <Compile Include="Param\ProductPropsParam.cs" />
+    <Compile Include="Param\ProductZoneParam.cs" />
+    <Compile Include="Param\PropsOfProductParam.cs" />
+    <Compile Include="Param\ProvinceParam.cs" />
+    <Compile Include="Param\SysMenuParam.cs" />
+    <Compile Include="Param\TagInNewsParam.cs" />
+    <Compile Include="Param\TagParam.cs" />
+    <Compile Include="Param\UserInLiveChatParam.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Entities\Core.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>Core.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Entities\Core.dbml.layout">
+      <DependentUpon>Core.dbml</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

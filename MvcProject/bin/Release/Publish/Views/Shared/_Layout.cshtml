@@ -1,0 +1,409 @@
+﻿@using BO;
+@using Entities.Param;
+@using Entities.Filter;
+@using Entities;
+@{
+    var menuBo = new MenuBo();
+    var param = new MenuParam();
+    var MenuFilter = new MenuFilter() { Status = (int)Utilities.Constants.RecordStatus.Published };
+    param.MenuFilter = MenuFilter;
+    menuBo.Search(param);
+    var listMenu = param.MenuEntitys;
+
+    //Cấu hình
+    var configBo = new ConfigurationBo();
+    var paramConfig = new ConfigurationParam() { ConfigurationFilter = new ConfigurationFilter() };
+    configBo.Search(paramConfig);
+
+    var phone = paramConfig.ConfigurationEntitys.Where(i => i.Id == 2).FirstOrDefault().Value;
+    var email = paramConfig.ConfigurationEntitys.Where(i => i.Id == 1).FirstOrDefault().Value;
+    var address = paramConfig.ConfigurationEntitys.Where(i => i.Id == 3).FirstOrDefault().Value;
+    var fanpage = paramConfig.ConfigurationEntitys.Where(i => i.Id == 4).FirstOrDefault().Value;
+}
+<!DOCTYPE html>
+<html lang="vi">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="robots" content="index,follow" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <title>@Html.Raw(!string.IsNullOrEmpty(ViewBag.Title) ? ViewBag.Title : "Trang chủ")</title>
+    @Html.Partial("_MetaSeo")
+    <meta http-equiv="refresh" content="1800" />
+    <!-- CSS ================================================== -->
+    <link href='~/Content/timber.scss.css' rel='stylesheet' type='text/css' media='all'>
+    <link href='~/Content/suplo-style.scss.css' rel='stylesheet' type='text/css' media='all'>
+    <link href='~/Content/owl.carousel.css' rel='stylesheet' type='text/css' media='all'>
+    <link href='~/Content/owl.theme.css' rel='stylesheet' type='text/css' media='all'>
+    <link href='~/Content/owl.transitions.css' rel='stylesheet' type='text/css' media='all'>
+    <link href='~/Content/animate.css' rel='stylesheet' type='text/css' media='all'>
+    <link href='~/Content/slick.css' rel='stylesheet' type='text/css' media='all'>
+    <link href='~/Content/slick-theme.css' rel='stylesheet' type='text/css' media='all'>
+    <link href='~/Content/custom.css' rel='stylesheet' type='text/css' media='all'>
+    <link href='~/Content/comfortaa.css' rel="stylesheet">
+    <script src='~/Scripts/jquery.min.js' type='text/javascript'></script>
+    <script src='~/Scripts/modernizr.min.js' type='text/javascript'></script>
+    <script src='~/Scripts/owl.carousel.min.js' type='text/javascript'></script>
+    <script src='~/Scripts/slick.min.js' type='text/javascript'></script>
+    <script src='~/Scripts/lazyload.js'></script>
+    <script src='~/Scripts/all.js'></script>
+    <script src='~/Scripts/wow.min.js'></script>
+    <!-- Google Tag Manager -->
+    <script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-5MRKF5M');</script>
+    <!-- End Google Tag Manager -->
+</head>
+<body id="nha-thuoc-suplo-chuoi-nha-thuoc-tay-lon-nhat-viet-nam" class=" template-index">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5MRKF5M"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="NavDrawer" class="drawer drawer--right">
+        <div class="drawer__header">
+            <div class="drawer__close js-drawer-close">
+                <button type="button" class="icon-fallback-text" onclick="toggleMobileNav()"><i class="fas fa-times"></i></button>
+            </div>
+        </div>
+        <!-- begin mobile-nav -->
+        <ul class="mobile-nav">
+            @*<li class="mobile-nav__item mobile-nav__search">
+                    <form action="/search" method="get" class="input-group search-bar" role="search">
+                        <input type="hidden" name="type" value="product"><input type="search" id="main-search-form-input" name="q" value="" placeholder="Tìm sản phẩm..." class="input-group-field" aria-label="Tìm sản phẩm..."><span class="input-group-btn">
+                            <button type="submit" class="btn icon-fallback-text"><i class="fa fa-search" aria-hidden="true"></i></button>
+                        </span>
+                    </form>
+                </li>*@
+            @for (int i = 0; i < listMenu.Count; i++)
+            {
+                var item = listMenu[i];
+                <li class="mobile-nav__item"><a href="@item.Url" class="mobile-nav__link">@item.Name</a></li>
+            }
+            @*<li class="mobile-nav__item" aria-haspopup="true">
+                    <div class="mobile-nav__has-sublist">
+                        <a href="#" class="mobile-nav__link">Sản phẩm</a>
+                        <div class="mobile-nav__toggle">
+                            <button type="button" class="icon-fallback-text mobile-nav__toggle-open"><span class="icon icon-plus" aria-hidden="true"></span><span class="fallback-text">See More</span></button>
+                            <button type="button" class="icon-fallback-text mobile-nav__toggle-close"><span class="icon icon-minus" aria-hidden="true"></span><span class="fallback-text">"Đóng"</span></button>
+                        </div>
+                    </div>
+                    <ul class="mobile-nav__sublist">
+                        <li class="mobile-nav__item" aria-haspopup="true">
+                            <div class="mobile-nav__has-sublist">
+                                <a href="#" class="mobile-nav__link">Thực phẩm chức năng</a>
+                                <div class="mobile-nav__toggle">
+                                    <button type="button" class="icon-fallback-text mobile-nav__toggle-open"><span class="icon icon-plus" aria-hidden="true"></span><span class="fallback-text">See More</span></button>
+                                    <button type="button" class="icon-fallback-text mobile-nav__toggle-close"><span class="icon icon-minus" aria-hidden="true"></span><span class="fallback-text">"Đóng"</span></button>
+                                </div>
+                            </div>
+                            <ul class="mobile-nav__sublist">
+                                <li class="mobile-nav__item "><a href="#" class="mobile-nav__link">Hỗ trợ đặc biệt</a></li>
+                                <li class="mobile-nav__item "><a href="#" class="mobile-nav__link">Mẹ &amp; b&#233;</a></li>
+                                <li class="mobile-nav__item "><a href="#" class="mobile-nav__link">Sinh l&#253; - Nội tiết tố</a></li>
+                                <li class="mobile-nav__item "><a href="#" class="mobile-nav__link">Vitamin &amp; thuốc bổ</a></li>
+                                <li class="mobile-nav__item "><a href="#" class="mobile-nav__link">L&#224;m đẹp - Tăng giảm c&#226;n</a></li>
+                            </ul>
+                        </li>
+                        <li class="mobile-nav__item" aria-haspopup="true">
+                            <div class="mobile-nav__has-sublist">
+                                <a href="#" class="mobile-nav__link">Dược mỹ phẩm</a>
+                                <div class="mobile-nav__toggle">
+                                    <button type="button" class="icon-fallback-text mobile-nav__toggle-open"><span class="icon icon-plus" aria-hidden="true"></span><span class="fallback-text">See More</span></button>
+                                    <button type="button" class="icon-fallback-text mobile-nav__toggle-close"><span class="icon icon-minus" aria-hidden="true"></span><span class="fallback-text">"Đóng"</span></button>
+                                </div>
+                            </div>
+                            <ul class="mobile-nav__sublist">
+                                <li class="mobile-nav__item "><a href="#" class="mobile-nav__link">Chăm s&#243;c t&#243;c - da đầu</a></li>
+                                <li class="mobile-nav__item "><a href="#" class="mobile-nav__link">Chăm s&#243;c cơ thể</a></li>
+                                <li class="mobile-nav__item "><a href="#" class="mobile-nav__link">Chăm s&#243;c da mặt</a></li>
+                                <li class="mobile-nav__item "><a href="#" class="mobile-nav__link">Chống nắng</a></li>
+                                <li class="mobile-nav__item "><a href="#" class="mobile-nav__link">Dưỡng thể</a></li>
+                            </ul>
+                        </li>
+                        <li class="mobile-nav__item" aria-haspopup="true">
+                            <div class="mobile-nav__has-sublist">
+                                <a href="#" class="mobile-nav__link">Chăm sóc cá nhân</a>
+                                <div class="mobile-nav__toggle">
+                                    <button type="button" class="icon-fallback-text mobile-nav__toggle-open"><span class="icon icon-plus" aria-hidden="true"></span><span class="fallback-text">See More</span></button>
+                                    <button type="button" class="icon-fallback-text mobile-nav__toggle-close"><span class="icon icon-minus" aria-hidden="true"></span><span class="fallback-text">"Đóng"</span></button>
+                                </div>
+                            </div>
+                            <ul class="mobile-nav__sublist">
+                                <li class="mobile-nav__item "><a href="#" class="mobile-nav__link">Mẹ &amp; b&#233;</a></li>
+                                <li class="mobile-nav__item "><a href="#" class="mobile-nav__link">Răng miệng</a></li>
+                                <li class="mobile-nav__item "><a href="#" class="mobile-nav__link">Phụ khoa</a></li>
+                                <li class="mobile-nav__item "><a href="#" class="mobile-nav__link">Bao cao su</a></li>
+                            </ul>
+                        </li>
+                        <li class="mobile-nav__item" aria-haspopup="true">
+                            <div class="mobile-nav__has-sublist"><a href="#" class="mobile-nav__link">Thuốc</a></div>
+                        </li>
+                    </ul>
+                </li>*@
+        </ul>
+        <!-- //mobile-nav -->
+    </div>
+    <div class="cart-overlay"></div>
+    <div id="CartDrawer" class="drawer drawer--left">
+        <div class="drawer__header">
+            <div class="drawer__title h3">Giỏ hàng</div>
+            <div class="drawer__close js-drawer-close">
+                <button type="button" class="icon-fallback-text"><span class="icon icon-x" aria-hidden="true"></span><span class="fallback-text">"Đóng"</span></button>
+            </div>
+        </div>
+        <div id="CartContainer"></div>
+    </div>
+    <header id="header">
+        <div class="desktop-header medium--hide small--hide">
+            <div class="desktop-header-top">
+                <div class="wrapper">
+                    <div class="inner">
+                        <div class="grid">
+                            <div class="grid__item large--one-third">
+                                <div class="hdt-left-contact wow fadeInLeft" data-wow-duration="0.75s" data-wow-delay="0.2s"><a href="tel:@phone"><i class="fas fa-phone"></i> (+84) @phone</a><a href="javascript:;"><i class="fas fa-envelope"></i> @email</a></div>
+                            </div>
+                            <div class="grid__item large--two-thirds text-right">
+                                <div class="hdt-right-search">
+                                    <div class="search-form-wrapper">
+                                        <form id="searchauto" action="/search" class="searchform-categoris ultimate-search">
+                                            <div class="wpo-search">
+                                                <div class="wpo-search-inner">
+                                                    <select class="select-collection">
+                                                        <option value="0">
+                                                            Tất cả
+
+                                                        <option value="1001194310">
+                                                            Thực phẩm chức năng
+
+                                                        <option value="1001194030">
+                                                            Thiết bị y tế
+
+                                                    </select>
+                                                    <div class="input-group">
+                                                        <input type="hidden" name="type" value="product"><input id="searchtext" name="q" id="s" maxlength="40" class="form-control input-search" type="text" size="20" placeholder="Tìm kiếm sản phẩm..."><span class="input-group-btn">
+                                                            <button type="submit" id="searchsubmit"><i class="fas fa-search"></i></button>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <input type="hidden" class="collection_id" value="(collectionid:product>=0)"><input type="hidden" class="collection_handle" value="all"><input type="hidden" class="collection_name" value="all">
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="desktop-header-center">
+                <div class="wrapper">
+                    <div class="inner">
+                        <div class="grid">
+                            <div class="grid__item large--three-twelfths">
+                                <div class="hd-logo wow fadeInUp">
+                                    <h1><a href="/"><img src="~/Image/bienlogo.png" alt="Nhà thuốc Suplo - Chuỗi nhà thuốc tây lớn nhất Việt Nam"></a></h1>
+                                </div>
+                            </div>
+                            <div class="grid__item large--nine-twelfths text-right">
+                                <div class="desktop-header-navbar">
+                                    <ul class="no-bullets">
+                                        @for (int i = 0; i < listMenu.Count; i++)
+                                        {
+                                            var item = listMenu[i];
+                                            <li class="wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.75s"><a href="@item.Url">@item.Name</a></li>
+                                        }
+                                    </ul>
+                                    @*<ul class="no-bullets">
+                                            <li class="active
+                                              wow fadeInRight
+                                              "
+                                                data-wow-delay="0.2s" data-wow-duration="0.75s"><a href="#">Trang chủ</a></li>
+                                            <li class="
+                                              wow fadeInRight
+                                              "
+                                                data-wow-delay="0.4s" data-wow-duration="0.75s"><a href="#">Giới thiệu</a></li>
+                                            <li class="
+                                              wow fadeInRight
+                                              dropdown"
+                                                data-wow-delay="0.6s" data-wow-duration="0.75s">
+                                                <a href="#">Sản phẩm<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                                <ul class="no-bullets">
+                                                    <li class="has-child">
+                                                        <i class="fas fa-caret-right"></i><a href="#">Thực phẩm chức năng<i class="fas fa-angle-right"></i></a>
+                                                        <ul class="no-bullets">
+                                                            <li><i class="fas fa-circle"></i><a href="#">Hỗ trợ đặc biệt</a></li>
+                                                            <li><i class="fas fa-circle"></i><a href="#">Mẹ & bé</a></li>
+                                                            <li><i class="fas fa-circle"></i><a href="#">Sinh lý - Nội tiết tố</a></li>
+                                                            <li><i class="fas fa-circle"></i><a href="#">Vitamin & thuốc bổ</a></li>
+                                                            <li><i class="fas fa-circle"></i><a href="#">Làm đẹp - Tăng giảm cân</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="has-child">
+                                                        <i class="fas fa-caret-right"></i><a href="#">Dược mỹ phẩm<i class="fas fa-angle-right"></i></a>
+                                                        <ul class="no-bullets">
+                                                            <li><i class="fas fa-circle"></i><a href="#">Chăm sóc tóc - da đầu</a></li>
+                                                            <li><i class="fas fa-circle"></i><a href="#">Chăm sóc cơ thể</a></li>
+                                                            <li><i class="fas fa-circle"></i><a href="#">Chăm sóc da mặt</a></li>
+                                                            <li><i class="fas fa-circle"></i><a href="#">Chống nắng</a></li>
+                                                            <li><i class="fas fa-circle"></i><a href="#">Dưỡng thể</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="has-child">
+                                                        <i class="fas fa-caret-right"></i><a href="#">Chăm sóc cá nhân<i class="fas fa-angle-right"></i></a>
+                                                        <ul class="no-bullets">
+                                                            <li><i class="fas fa-circle"></i><a href="#">Mẹ & bé</a></li>
+                                                            <li><i class="fas fa-circle"></i><a href="#">Răng miệng</a></li>
+                                                            <li><i class="fas fa-circle"></i><a href="#">Phụ khoa</a></li>
+                                                            <li><i class="fas fa-circle"></i><a href="#">Bao cao su</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class=""><i class="fas fa-caret-right"></i><a href="#">Thuốc</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="
+                                              wow fadeInRight
+                                              dropdown"
+                                                data-wow-delay="0.8s" data-wow-duration="0.75s">
+                                                <a href="#">Tất cả tin tức<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                                <ul class="no-bullets">
+                                                    <li class=""><i class="fas fa-caret-right"></i><a href="#">Tin tức mới nhất</a></li>
+                                                    <li class=""><i class="fas fa-caret-right"></i><a href="#">Góc sức khỏe</a></li>
+                                                    <li class=""><i class="fas fa-caret-right"></i><a href="#">Tuyển dụng Suplo</a></li>
+                                                    <li class=""><i class="fas fa-caret-right"></i><a href="#">Sự kiện nổi bật</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="
+                                              wow fadeInRight
+                                              "
+                                                data-wow-delay="1s" data-wow-duration="0.75s"><a href="#">Chuỗi nhà thuốc</a></li>
+                                            <li class="
+                                              wow fadeInRight
+                                              "
+                                                data-wow-delay="1.2s" data-wow-duration="0.75s"><a href="#">Liên hệ</a></li>
+                                        </ul>*@
+                                </div>
+                                @Html.Partial("~/Views/Cart/_TopCart.cshtml")
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-header large--hide">
+            <div class="wrapper">
+                <div class="inner">
+                    <div class="grid">
+                        <div class="grid__item medium--one-third small--one-third">
+                            <div class="hd-logo text-left">
+                                <a href="/">
+                                    <img src="~/Image/bienlogo.png" alt="Nhà thuốc Suplo - Chuỗi nhà thuốc tây lớn nhất Việt Nam">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="grid__item large--two-twelfths push--large--eight-twelfths medium--two-thirds small--two-thirds clearfix text-right">
+                            @Html.Partial("~/Views/Cart/_TopCartMobile.cshtml")
+                            <div class="hd-btnMenu"><a href="javascript:;" class="icon-fallback-text site-nav__link js-drawer-open-right" aria-controls="NavDrawer" aria-expanded="false" onclick="toggleMobileNav()"><i class="fas fa-bars"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    @RenderBody()
+    <footer id="footer">
+        <div class="footer-content">
+            <div class="wrapper">
+                <div class="inner">
+                    <div class="grid-uniform">
+                        <div class="grid__item large--two-quarters medium--one-half small--one-whole wow fadeInLeft">
+                            <div class="ft-contact">
+                                <h3 class="ft-title">Thông tin liên hệ</h3>
+                                <div class="ft-contact-desc">Hoàng gia cam kết nỗ lực hết mình nhằm cung cấp sản phẩm và dịch vụ đúng với những giá trị mà khách hàng mong đợi.</div>
+                                <div class="ft-contact-address">
+                                    <span class="ft-contact-icon"><i class="fas fa-map-marker-alt"></i></span>
+                                    <div class="ft-contact-detail">Địa chỉ: @address</div>
+                                </div>
+                                <div class="ft-contact-tel">
+                                    <span class="ft-contact-icon"><i class="fas fa-phone"></i></span>
+                                    <div class="ft-contact-detail">Số điện thoại:<a href="tel:@phone">(+84) @phone</a></div>
+                                </div>
+                                <div class="ft-contact-email">
+                                    <span class="ft-contact-icon"><i class="fas fa-envelope"></i></span>
+                                    <div class="ft-contact-detail">Email:<a href="javascript:;"> @email</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__item large--two-quarters medium--one-half small--one-whole wow fadeInRight">
+                            <div class="ft-subscribe">
+                                <h3 class="ft-title">Đăng ký nhận tin</h3>
+                                <div class="ft-subscribe-desc">Mỗi tháng chúng tôi đều có những đợt giảm giá dịch vụ và sản phẩm nhằm tri ân khách hàng. Để có thể cập nhật kịp thời những đợt giảm giá này, vui lòng nhập địa chỉ email của bạn vào ô dưới đây.</div>
+                                <div class="ft-sub-wrapper">
+                                    <form accept-charset='UTF-8' action='/account/contact' class='contact-form' method='post'>
+                                        <input type="email" value="" placeholder="Nhập địa chỉ email của bạn..." name="contact[email]" id="Email" aria-label="email@example.com"><input type="hidden" name="contact[tags]" value="newsletter">
+                                        <button type="button" name="subscribe" id="subscribe" value="GỬI"><i class="fab fa-telegram-plane"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="ft-social">
+                                <a href="@fanpage" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyrights">
+            <div class="wrapper">
+                <div class="inner">
+                    <div class="grid">
+                        <div class="grid__item large--one-half medium--one-whole small--one-whole float-right">
+                            <div class="ft-copyrights-link text-right">
+                                <ul class="no-bullets">
+                                    <li class="wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.75s"><a href="javascript:;">Điều khoản sử dụng</a></li>
+                                    <li class="wow fadeInRight" data-wow-delay="0.4s" data-wow-duration="0.75s"><a href="javascript:;">Chính sách bảo mật</a></li>
+                                    <li class="wow fadeInRight" data-wow-delay="0.6s" data-wow-duration="0.75s"><a href="javascript:;">Câu hỏi thường gặp</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="grid__item large--one-half medium--one-whole small--one-whole">
+                            <div class="ft-copyrights-content wow fadeInLeft" data-wow-duration="0.75s" data-wow-delay="0.2s">Copyrights © @DateTime.Now.Year by<a href="/"> Phụ kiện hoàng gia</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id="fixed-social-network" class="medium--hide small--hide">
+        <a href="@fanpage" target="_blank" class="fb-icon"><i class="fab fa-facebook-f"></i>Facebook</a>
+        @*<a href="#" class="ins-icon"><i class="fab fa-instagram"></i>Instagram</a>
+            <a href="#" class="yt-icon"><i class="fab fa-youtube"></i>Youtube</a>
+            <a href="#" class="tw-icon"><i class="fab fa-twitter"></i>Twitter</a>
+            <a href="#" class="gg-icon"><i class="fab fa-google-plus-g"></i>Google+</a>
+            <a href="#" class="linkedin-icon"><i class="fab fa-linkedin-in"></i>Linkedin</a>*@
+        <a href="javascript:;" rel="nofollow" id="back-to-top"><i class="fa fa-angle-up" aria-hidden="true"></i>Top</a>
+    </div>
+    <div id="modalAddComplete">
+
+    </div>
+    <div class="modal" id="productQuickView">
+
+    </div>
+    <script src='~/Scripts/api.jquery.js' type='text/javascript'></script>
+    <script src='~/Scripts/option_selection.js' type='text/javascript'></script>
+    <script src='~/Scripts/fastclick.min.js' type='text/javascript'></script>
+    <script src='~/Scripts/frontend.js' type='text/javascript'></script>
+    <script src='~/Scripts/cart.js' type='text/javascript'></script>
+    <script>
+        loadJs('@Utilities.Config.DOMAIN/Scripts/livechat-embbed.js', function () {
+            LiveChatInit('@Utilities.Config.DOMAIN');
+        });
+    </script>
+</body>
+</html>

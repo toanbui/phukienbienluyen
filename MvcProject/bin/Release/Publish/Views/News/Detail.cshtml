@@ -1,0 +1,117 @@
+﻿@model Entities.Param.FrontEnd.NewsModel
+@using Entities.Entities
+@using BO;
+@using Entities.Param;
+@using Entities.Filter;
+
+@using Utilities
+@{
+    //Cấu hình
+    var configBo = new ConfigurationBo();
+    var paramConfig = new ConfigurationParam() { ConfigurationFilter = new ConfigurationFilter() };
+    configBo.Search(paramConfig);
+
+    var fanpage = paramConfig.ConfigurationEntitys.Where(i => i.Id == 4).FirstOrDefault().Value;
+}
+@if (Model.articleEntity != null && Model.articleEntity.NewsId > 0)
+{
+    var item = @Model.articleEntity;
+    <main class="main-content" role="main">
+        <section id="blog-wrapper">
+            <div class="wrapper">
+                <div class="inner">
+                    <div class="grid">
+
+                        <article class="float-right grid__item large--nine-twelfths medium--one-whole small--one-whole" itemscope="" itemtype="http://schema.org/Article">
+
+                            <div class="article-content">
+                                <div class="article-head">
+                                    <h1>@item.Title</h1>
+                                    <div class="grid mg-left-15">
+                                        <div class="grid__item large--one-half medium--one-half small--one-half pd-left15">
+                                            <div class="article-date-comment">
+                                                <div class="date"><svg class="svg-inline--fa fa-calendar-alt fa-w-14" aria-hidden="true" data-prefix="fas" data-icon="calendar-alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M436 160H12c-6.6 0-12-5.4-12-12v-36c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48v36c0 6.6-5.4 12-12 12zM12 192h424c6.6 0 12 5.4 12 12v260c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V204c0-6.6 5.4-12 12-12zm116 204c0-6.6-5.4-12-12-12H76c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12v-40zm0-128c0-6.6-5.4-12-12-12H76c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12v-40zm128 128c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12v-40zm0-128c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12v-40zm128 128c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12v-40zm0-128c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12v-40z"></path></svg><!-- <i class="fas fa-calendar-alt"></i> --> @item.Created.ToString()</div>
+                                                <div class="comment"><svg class="svg-inline--fa fa-comment-alt fa-w-18" aria-hidden="true" data-prefix="fas" data-icon="comment-alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M576 240c0 115-129 208-288 208-48.3 0-93.9-8.6-133.9-23.8-40.3 31.2-89.8 50.3-142.4 55.7-5.2.6-10.2-2.8-11.5-7.7-1.3-5 2.7-8.1 6.6-11.8 19.3-18.4 42.7-32.8 51.9-94.6C21.9 330.9 0 287.3 0 240 0 125.1 129 32 288 32s288 93.1 288 208zm-416-48c-26.5 0-48 21.5-48 48s21.5 48 48 48 48-21.5 48-48-21.5-48-48-48zm128 0c-26.5 0-48 21.5-48 48s21.5 48 48 48 48-21.5 48-48-21.5-48-48-48zm128 0c-26.5 0-48 21.5-48 48s21.5 48 48 48 48-21.5 48-48-21.5-48-48-48z"></path></svg><!-- <i class="fas fa-comment-alt"></i> --> <span class="fb-comments-count fb_comments_count_zero_fluid_desktop" data-href="https://nha-thuoc-suplo.myharavan.com/blogs/news/moi-nguy-hiem-khi-thuong-xuyen-tieu-thu-do-an-nhanh" fb-xfbml-state="parsed" fb-iframe-plugin-query="app_id=&amp;container_width=0&amp;count=true&amp;height=100&amp;href=https%3A%2F%2Fnha-thuoc-suplo.myharavan.com%2Fblogs%2Fnews%2Fmoi-nguy-hiem-khi-thuong-xuyen-tieu-thu-do-an-nhanh&amp;locale=vi_VN&amp;sdk=joey&amp;version=v2.11&amp;width=550"><span class="fb_comments_count">0</span></span></div>
+                                                <div class="author">
+                                                    <svg class="svg-inline--fa fa-user fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="user" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M256 0c88.366 0 160 71.634 160 160s-71.634 160-160 160S96 248.366 96 160 167.634 0 256 0zm183.283 333.821l-71.313-17.828c-74.923 53.89-165.738 41.864-223.94 0l-71.313 17.828C29.981 344.505 0 382.903 0 426.955V464c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48v-37.045c0-44.052-29.981-82.45-72.717-93.134z"></path></svg><!-- <i class="fas fa-user"></i> --> @item.Author
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="grid__item large--one-half medium--one-half small--one-half pd-left15">
+                                            <div class="social-network-actions text-right">
+                                                <div class="fb-like fb_iframe_widget" data-href="@string.Format("{0}{1}",Config.DOMAIN,item.Url.BuildShortNewsUrl(item.NewsId))" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=&amp;container_width=416&amp;href=@string.Format("{0}{1}",Config.DOMAIN,item.Url.BuildShortNewsUrl(item.NewsId))&amp;layout=button_count&amp;locale=vi_VN&amp;sdk=joey&amp;share=true&amp;show_faces=true&amp;size=small"><span style="vertical-align: bottom; width: 122px; height: 20px;"><iframe name="faafd556516df4" width="1000px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" title="fb:like Facebook Social Plugin" src="https://www.facebook.com/v2.11/plugins/like.php?action=like&amp;app_id=&amp;channel=?version=44#cb=fbeca21771afd4&domain=@Config.DOMAIN&origin=@Config.DOMAIN&relation=parent.parent&amp;container_width=416&amp;href=@string.Format("{0}{1}",Config.DOMAIN,item.Url.BuildShortNewsUrl(item.NewsId))&amp;layout=button_count&amp;locale=vi_VN&amp;sdk=joey&amp;share=true&amp;show_faces=true&amp;size=small" style="border: none; visibility: visible; width: 122px; height: 20px;" class=""></iframe></span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="article-tldr clearfix">
+                                    <p>@item.Sapo</p>
+                                </div>
+
+                                <div class="article-body">
+                                    @Html.Raw(Model.articleEntity.Body)
+                                </div>
+
+                                <div class="article-tags clearfix">
+                                    <span>Từ khóa:</span>
+
+                                    <a href="/blogs/news/tagged/thuc-pham">Thực phẩm</a>
+
+                                    <a href="/blogs/news/tagged/suc-khoe">Sức khỏe</a>
+
+                                </div>
+
+                            </div>
+                            <div class="social-network-actions-outside text-right">
+                                <div class="fb-send" data-href="https://nha-thuoc-suplo.myharavan.com/blogs/news/moi-nguy-hiem-khi-thuong-xuyen-tieu-thu-do-an-nhanh"></div>
+                                <div class="fb-like fb_iframe_widget" data-href="https://nha-thuoc-suplo.myharavan.com/blogs/news/moi-nguy-hiem-khi-thuong-xuyen-tieu-thu-do-an-nhanh" data-layout="button" data-action="like" data-size="small" data-show-faces="true" data-share="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=&amp;container_width=833&amp;href=https%3A%2F%2Fnha-thuoc-suplo.myharavan.com%2Fblogs%2Fnews%2Fmoi-nguy-hiem-khi-thuong-xuyen-tieu-thu-do-an-nhanh&amp;layout=button&amp;locale=vi_VN&amp;sdk=joey&amp;share=true&amp;show_faces=true&amp;size=small"><span style="vertical-align: bottom; width: 112px; height: 20px;"><iframe name="f37db23adecc564" width="1000px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" title="fb:like Facebook Social Plugin" src="https://www.facebook.com/v2.11/plugins/like.php?action=like&amp;app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2Fvy-MhgbfL4v.js%3Fversion%3D44%23cb%3Df2b8284d583e66c%26domain%3Dnha-thuoc-suplo.myharavan.com%26origin%3Dhttps%253A%252F%252Fnha-thuoc-suplo.myharavan.com%252Ff26ea41e8f0008%26relation%3Dparent.parent&amp;container_width=833&amp;href=https%3A%2F%2Fnha-thuoc-suplo.myharavan.com%2Fblogs%2Fnews%2Fmoi-nguy-hiem-khi-thuong-xuyen-tieu-thu-do-an-nhanh&amp;layout=button&amp;locale=vi_VN&amp;sdk=joey&amp;share=true&amp;show_faces=true&amp;size=small" style="border: none; visibility: visible; width: 112px; height: 20px;" class=""></iframe></span></div>
+                            </div>
+                            <div id="section-fbcomment" class="fb-comments-wrapper">
+                                <div class="fb-comments fb_iframe_widget fb_iframe_widget_fluid_desktop" data-href="https://nha-thuoc-suplo.myharavan.com/blogs/news/moi-nguy-hiem-khi-thuong-xuyen-tieu-thu-do-an-nhanh" data-width="100%" data-numposts="5" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=&amp;container_width=848&amp;height=100&amp;href=https%3A%2F%2Fnha-thuoc-suplo.myharavan.com%2Fblogs%2Fnews%2Fmoi-nguy-hiem-khi-thuong-xuyen-tieu-thu-do-an-nhanh&amp;locale=vi_VN&amp;numposts=5&amp;sdk=joey&amp;version=v2.11" style="width: 100%;"><span style="vertical-align: bottom; width: 100%; height: 178px;"><iframe name="f234a329000258" width="1000px" height="100px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" title="fb:comments Facebook Social Plugin" src="https://www.facebook.com/v2.11/plugins/comments.php?app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2Fvy-MhgbfL4v.js%3Fversion%3D44%23cb%3Df216f8afa6c4744%26domain%3Dnha-thuoc-suplo.myharavan.com%26origin%3Dhttps%253A%252F%252Fnha-thuoc-suplo.myharavan.com%252Ff26ea41e8f0008%26relation%3Dparent.parent&amp;container_width=848&amp;height=100&amp;href=https%3A%2F%2Fnha-thuoc-suplo.myharavan.com%2Fblogs%2Fnews%2Fmoi-nguy-hiem-khi-thuong-xuyen-tieu-thu-do-an-nhanh&amp;locale=vi_VN&amp;numposts=5&amp;sdk=joey&amp;version=v2.11" style="border: none; visibility: visible; width: 100%; height: 178px;" class=""></iframe></span></div>
+                            </div>
+
+                            <div class="related-articles">
+                                <div class="related-articles-head">
+                                    <h3>
+                                        Các bài viết liên quan
+                                    </h3>
+                                </div>
+                                <div class="related-articles-body">
+                                    <ul class="no-bullets">
+
+
+
+
+                                        <li>
+                                            <a href="/blogs/news/duong-da-cang-min-nho-bo-sung-khoang-chat">Dưỡng da căng mịn nhờ bổ sung khoáng chất</a>
+                                        </li>
+
+
+
+                                        <li>
+                                            <a href="/blogs/news/dau-bung-co-the-la-trieu-chung-cua-nhung-benh-gi">Đau bụng có thể là triệu chứng của những bệnh gì?</a>
+                                        </li>
+
+
+                                    </ul>
+                                </div>
+                            </div>
+
+
+                        </article>
+
+                        <div class="grid__item large--three-twelfths medium--one-whole small--one-whole">
+                            <div class="blog-sidebar">
+                                <div class="fb-page medium--hide small--hide fb_iframe_widget" data-href="@fanpage" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=&amp;container_width=263&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2FSuploTeam%2F&amp;locale=vi_VN&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false&amp;tabs=timeline"><span style="vertical-align: bottom; width: 263px; height: 500px;"><iframe name="f2e98fb144c76c" width="1000px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" title="fb:page Facebook Social Plugin" src="https://www.facebook.com/v2.11/plugins/page.php?adapt_container_width=true&app_id=&container_width=263&hide_cover=false&href=@fanpage&locale=vi_VN&sdk=joey&show_facepile=true&small_header=false&tabs=timeline" style="border: none; visibility: visible; width: 263px; height: 500px;" class=""></iframe></span></div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+}

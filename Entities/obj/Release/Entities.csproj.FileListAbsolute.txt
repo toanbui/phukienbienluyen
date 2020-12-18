@@ -1,0 +1,21 @@
+E:\Working\MvcProject\Entities\bin\Release\Entities.dll.config
+E:\Working\MvcProject\Entities\bin\Release\Entities.dll
+E:\Working\MvcProject\Entities\bin\Release\Entities.pdb
+E:\Working\MvcProject\Entities\obj\Release\Entities.csprojAssemblyReference.cache
+E:\Working\MvcProject\Entities\obj\Release\Entities.csproj.CoreCompileInputs.cache
+E:\Working\MvcProject\Entities\obj\Release\Entities.dll
+E:\Working\MvcProject\Entities\obj\Release\Entities.pdb
+E:\Working\Team Foundation Server\WebBien\Entities\bin\Release\Entities.dll.config
+E:\Working\Team Foundation Server\WebBien\Entities\bin\Release\Entities.dll
+E:\Working\Team Foundation Server\WebBien\Entities\bin\Release\Entities.pdb
+E:\Working\Team Foundation Server\WebBien\Entities\obj\Release\Entities.csprojAssemblyReference.cache
+E:\Working\Team Foundation Server\WebBien\Entities\obj\Release\Entities.csproj.CoreCompileInputs.cache
+E:\Working\Team Foundation Server\WebBien\Entities\obj\Release\Entities.dll
+E:\Working\Team Foundation Server\WebBien\Entities\obj\Release\Entities.pdb
+D:\Code\TFS\WebBien\Entities\bin\Release\Entities.dll.config
+D:\Code\TFS\WebBien\Entities\bin\Release\Entities.dll
+D:\Code\TFS\WebBien\Entities\bin\Release\Entities.pdb
+D:\Code\TFS\WebBien\Entities\obj\Release\Entities.csprojAssemblyReference.cache
+D:\Code\TFS\WebBien\Entities\obj\Release\Entities.csproj.CoreCompileInputs.cache
+D:\Code\TFS\WebBien\Entities\obj\Release\Entities.dll
+D:\Code\TFS\WebBien\Entities\obj\Release\Entities.pdb

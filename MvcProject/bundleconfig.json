@@ -1,0 +1,11 @@
+[
+  {
+    "outputFileName": "Scripts/Admin/live-chat.min.js",
+    "inputFiles": [
+      "Scripts/Admin/jquery.timeago.js",
+      "Scripts/jquery.validate.js",
+      "Scripts/Admin/moment.js",
+      "Scripts/Admin/live-chat.js"
+    ]
+  }
+]

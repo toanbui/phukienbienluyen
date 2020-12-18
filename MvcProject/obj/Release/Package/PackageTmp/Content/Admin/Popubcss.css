@@ -1,0 +1,51 @@
+﻿
+.bbpopub .button.small {
+    border-radius: 15px;
+    float: right;
+    margin: 22px 5px 0;
+    padding: 6px 15px;
+}
+
+.bbpopub .button:hover {
+    background-color: red;
+}
+
+.bbpopub .button > span {
+    font-size: 84%;
+}
+
+.bbpopub {
+    min-width: 200px;
+    min-height: 180px;
+    background: transparent;
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    opacity: 1 !important;
+}
+
+.bbpopub .button.b-close, .button.bClose {
+    border-radius: 7px 7px 7px 7px;
+    box-shadow: none;
+    font: bold 131% sans-serif;
+    padding: 0 6px 2px;
+    position: absolute;
+    right: -7px;
+    top: -7px;
+    background: #fff;
+    cursor: pointer;
+}
+
+.search .main-content .box .box-content .imageAjaxLoading {
+    background-color: rgba(255,255,255,0.9);
+    padding: 10px;
+    z-index: 10;
+    /* position: absolute; */
+    width: 705px;
+    height: 167px;
+}
+
+.imageAjaxLoading {
+    text-align: center;
+    color: #F5922A;
+}

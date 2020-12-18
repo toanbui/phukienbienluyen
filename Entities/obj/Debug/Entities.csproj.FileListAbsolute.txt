@@ -1,0 +1,25 @@
+C:\Users\Toan\source\repos\MvcProject\Entities\bin\Debug\Entities.dll
+C:\Users\Toan\source\repos\MvcProject\Entities\bin\Debug\Entities.pdb
+C:\Users\Toan\source\repos\MvcProject\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+C:\Users\Toan\source\repos\MvcProject\Entities\obj\Debug\Entities.dll
+C:\Users\Toan\source\repos\MvcProject\Entities\obj\Debug\Entities.pdb
+E:\Working\MvcProject\Entities\bin\Debug\Entities.dll.config
+E:\Working\MvcProject\Entities\bin\Debug\Entities.dll
+E:\Working\MvcProject\Entities\bin\Debug\Entities.pdb
+E:\Working\MvcProject\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+E:\Working\MvcProject\Entities\obj\Debug\Entities.dll
+E:\Working\MvcProject\Entities\obj\Debug\Entities.pdb
+E:\Working\MvcProject\Entities\obj\Debug\Entities.csprojAssemblyReference.cache
+E:\Working\Team Foundation Server\WebBien\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+E:\Working\Team Foundation Server\WebBien\Entities\obj\Debug\Entities.dll
+E:\Working\Team Foundation Server\WebBien\Entities\obj\Debug\Entities.pdb
+E:\Working\Team Foundation Server\WebBien\Entities\bin\Debug\Entities.dll.config
+E:\Working\Team Foundation Server\WebBien\Entities\bin\Debug\Entities.dll
+E:\Working\Team Foundation Server\WebBien\Entities\bin\Debug\Entities.pdb
+D:\Code\TFS\WebBien\Entities\bin\Debug\Entities.dll.config
+D:\Code\TFS\WebBien\Entities\bin\Debug\Entities.dll
+D:\Code\TFS\WebBien\Entities\bin\Debug\Entities.pdb
+D:\Code\TFS\WebBien\Entities\obj\Debug\Entities.csprojAssemblyReference.cache
+D:\Code\TFS\WebBien\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+D:\Code\TFS\WebBien\Entities\obj\Debug\Entities.dll
+D:\Code\TFS\WebBien\Entities\obj\Debug\Entities.pdb

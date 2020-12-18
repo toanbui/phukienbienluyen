@@ -1,0 +1,3520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\Code\TFS\WebBien\MvcProject\bin\Release\Publish</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApplicationInsights.config">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="App_GlobalResources/Message.resx">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>03/28/2019 10:00:40</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>03/28/2019 10:00:40</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="bin/BO.dll">
+      <publishTime>08/22/2019 14:25:58</publishTime>
+    </File>
+    <File Include="bin/BO.pdb">
+      <publishTime>08/22/2019 14:25:58</publishTime>
+    </File>
+    <File Include="bin/CacheHelper.dll">
+      <publishTime>08/22/2019 14:25:58</publishTime>
+    </File>
+    <File Include="bin/CacheHelper.pdb">
+      <publishTime>08/22/2019 14:25:58</publishTime>
+    </File>
+    <File Include="bin/DAO.dll">
+      <publishTime>08/22/2019 14:25:58</publishTime>
+    </File>
+    <File Include="bin/DAO.dll.config">
+      <publishTime>03/28/2019 10:00:28</publishTime>
+    </File>
+    <File Include="bin/DAO.pdb">
+      <publishTime>08/22/2019 14:25:58</publishTime>
+    </File>
+    <File Include="bin/Entities.dll">
+      <publishTime>08/22/2019 14:25:58</publishTime>
+    </File>
+    <File Include="bin/Entities.dll.config">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="bin/Entities.pdb">
+      <publishTime>08/22/2019 14:25:58</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>03/28/2019 10:00:40</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>03/28/2019 10:00:40</publishTime>
+    </File>
+    <File Include="bin/Enyim.Caching.dll">
+      <publishTime>03/28/2019 10:00:40</publishTime>
+    </File>
+    <File Include="bin/ExcelDataReader.DataSet.dll">
+      <publishTime>03/28/2019 10:00:40</publishTime>
+    </File>
+    <File Include="bin/ExcelDataReader.DataSet.pdb">
+      <publishTime>03/28/2019 10:00:40</publishTime>
+    </File>
+    <File Include="bin/ExcelDataReader.dll">
+      <publishTime>03/28/2019 10:00:40</publishTime>
+    </File>
+    <File Include="bin/ExcelDataReader.pdb">
+      <publishTime>03/28/2019 10:00:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>03/28/2019 10:00:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>03/28/2019 10:00:41</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>03/28/2019 10:00:41</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>03/28/2019 10:00:41</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>03/28/2019 10:00:41</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>03/28/2019 10:00:41</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>03/28/2019 10:00:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
+      <publishTime>03/28/2019 10:00:36</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.EntityFramework.dll">
+      <publishTime>03/28/2019 10:00:36</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Owin.dll">
+      <publishTime>03/28/2019 10:00:36</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.SignalR.Core.dll">
+      <publishTime>03/28/2019 10:00:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.SignalR.Core.pdb">
+      <publishTime>03/28/2019 10:00:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.SignalR.SystemWeb.dll">
+      <publishTime>03/28/2019 10:00:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.SignalR.SystemWeb.pdb">
+      <publishTime>03/28/2019 10:00:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.TelemetryCorrelation.dll">
+      <publishTime>03/28/2019 10:00:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>03/28/2019 10:00:44</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>03/28/2019 10:00:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>03/28/2019 10:00:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
+      <publishTime>03/28/2019 10:00:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>03/28/2019 10:00:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>03/28/2019 10:00:46</publishTime>
+    </File>
+    <File Include="bin/MvcProject.dll">
+      <publishTime>08/22/2019 14:25:59</publishTime>
+    </File>
+    <File Include="bin/MvcProject.pdb">
+      <publishTime>08/22/2019 14:25:59</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>03/28/2019 10:00:36</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>03/28/2019 10:00:47</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>03/28/2019 10:00:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>03/28/2019 10:00:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>03/28/2019 10:00:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>03/28/2019 10:00:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>03/28/2019 10:00:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>03/28/2019 10:00:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>03/28/2019 10:00:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>03/28/2019 10:00:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>03/28/2019 10:00:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>03/28/2019 10:00:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>03/28/2019 10:00:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>03/28/2019 10:00:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>03/28/2019 10:00:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>03/28/2019 10:00:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>03/28/2019 10:00:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>03/28/2019 10:00:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>03/28/2019 10:00:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>03/28/2019 10:00:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>03/28/2019 10:00:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>03/28/2019 10:00:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>03/28/2019 10:00:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>03/28/2019 10:00:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>03/28/2019 10:00:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>03/28/2019 10:00:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>03/28/2019 10:00:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>03/28/2019 10:00:44</publishTime>
+    </File>
+    <File Include="bin/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>03/28/2019 10:00:48</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>03/28/2019 10:00:42</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>03/28/2019 10:00:43</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>03/28/2019 10:00:43</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>03/28/2019 10:00:43</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>03/28/2019 10:00:36</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>03/28/2019 10:00:42</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>03/28/2019 10:00:42</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>03/28/2019 10:00:43</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>03/28/2019 10:00:43</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>03/28/2019 10:00:43</publishTime>
+    </File>
+    <File Include="bin/Utilities.dll">
+      <publishTime>08/22/2019 14:25:58</publishTime>
+    </File>
+    <File Include="bin/Utilities.pdb">
+      <publishTime>08/22/2019 14:25:58</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>03/28/2019 10:00:48</publishTime>
+    </File>
+    <File Include="configs/BoFormat.txt">
+      <publishTime>03/28/2019 10:00:36</publishTime>
+    </File>
+    <File Include="configs/ControllerFormat.txt">
+      <publishTime>03/28/2019 10:00:36</publishTime>
+    </File>
+    <File Include="configs/CreateFormat.txt">
+      <publishTime>03/28/2019 10:00:36</publishTime>
+    </File>
+    <File Include="configs/DaoFormat.txt">
+      <publishTime>03/28/2019 10:00:36</publishTime>
+    </File>
+    <File Include="configs/DeleteFormat.txt">
+      <publishTime>03/28/2019 10:00:36</publishTime>
+    </File>
+    <File Include="configs/FilterFormat.txt">
+      <publishTime>03/28/2019 10:00:36</publishTime>
+    </File>
+    <File Include="configs/IndexFormat.txt">
+      <publishTime>03/28/2019 10:00:36</publishTime>
+    </File>
+    <File Include="configs/InfoFormat.txt">
+      <publishTime>03/28/2019 10:00:36</publishTime>
+    </File>
+    <File Include="configs/OrderTemplate.html">
+      <publishTime>03/28/2019 10:00:36</publishTime>
+    </File>
+    <File Include="configs/ParamFormat.txt">
+      <publishTime>03/28/2019 10:00:36</publishTime>
+    </File>
+    <File Include="configs/rewriterules.json">
+      <publishTime>08/22/2019 13:31:24</publishTime>
+    </File>
+    <File Include="Content/Admin/amchart.css">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Content/Admin/animate.css">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Content/Admin/bootstrap.min.css">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Content/Admin/buttons.dataTables.min.css">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Content/Admin/color-1.css">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Content/Admin/component.css">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Content/Admin/dataTables.bootstrap4.min.css">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Content/Admin/flag-icon.min.css">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Content/Admin/font-awesome.css">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Content/Admin/font-open-sans.css">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Content/Admin/icofont.css">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Content/Admin/ionicons.css">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Content/Admin/live-chat.css">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Content/Admin/notification.css">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Content/Admin/Popubcss.css">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Content/Admin/responsive.bootstrap4.min.css">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Content/Admin/select2.css">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Content/Admin/style.css">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Content/Admin/style_main.css">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Content/Admin/themify-icons.css">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Content/animate.css">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>01/21/2019 13:39:49</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css.map">
+      <publishTime>01/21/2019 13:39:49</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>01/21/2019 13:39:49</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css.map">
+      <publishTime>01/21/2019 13:39:49</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>01/26/2019 20:05:01</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>01/21/2019 13:39:49</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>01/21/2019 13:39:49</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>01/21/2019 13:39:49</publishTime>
+    </File>
+    <File Include="Content/checkouts.css">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Content/comfortaa.css">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Content/custom.css">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Content/owl.carousel.css">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Content/owl.theme.css">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Content/owl.transitions.css">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>01/21/2019 13:39:44</publishTime>
+    </File>
+    <File Include="Content/slick-theme.css">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Content/slick.css">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Content/suplo-style.scss.css">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Content/timber.scss.css">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="dll/HtmlAgilityPack.dll">
+      <publishTime>03/28/2019 10:00:36</publishTime>
+    </File>
+    <File Include="dll/Microsoft.AspNet.Identity.Core.dll">
+      <publishTime>03/28/2019 10:00:36</publishTime>
+    </File>
+    <File Include="dll/Microsoft.AspNet.Identity.EntityFramework.dll">
+      <publishTime>03/28/2019 10:00:36</publishTime>
+    </File>
+    <File Include="dll/Microsoft.AspNet.Identity.Owin.dll">
+      <publishTime>03/28/2019 10:00:36</publishTime>
+    </File>
+    <File Include="dll/Microsoft.Owin.dll">
+      <publishTime>03/28/2019 10:00:36</publishTime>
+    </File>
+    <File Include="dll/Microsoft.Owin.Security.dll">
+      <publishTime>03/28/2019 10:00:36</publishTime>
+    </File>
+    <File Include="dll/Newtonsoft.Json.dll">
+      <publishTime>03/28/2019 10:00:36</publishTime>
+    </File>
+    <File Include="dll/PlainElastic.Net.dll">
+      <publishTime>03/28/2019 10:00:36</publishTime>
+    </File>
+    <File Include="dll/RestSharp.dll">
+      <publishTime>03/28/2019 10:00:36</publishTime>
+    </File>
+    <File Include="dll/System.Web.Mvc.dll">
+      <publishTime>03/28/2019 10:00:36</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>03/28/2019 10:00:36</publishTime>
+    </File>
+    <File Include="fonts/1Ptpg8LJRfWJmhDAuUsw9qR_AdCb_Vo.woff2">
+      <publishTime>03/28/2019 10:00:36</publishTime>
+    </File>
+    <File Include="fonts/1Ptpg8LJRfWJmhDAuUsw9qR_AtCb.woff2">
+      <publishTime>03/28/2019 10:00:36</publishTime>
+    </File>
+    <File Include="fonts/1Ptpg8LJRfWJmhDAuUsw9qR_BtCb_Vo.woff2">
+      <publishTime>03/28/2019 10:00:36</publishTime>
+    </File>
+    <File Include="fonts/1Ptpg8LJRfWJmhDAuUsw9qR_D9Cb_Vo.woff2">
+      <publishTime>03/28/2019 10:00:36</publishTime>
+    </File>
+    <File Include="fonts/1Ptpg8LJRfWJmhDAuUsw9qR_DdCb_Vo.woff2">
+      <publishTime>03/28/2019 10:00:36</publishTime>
+    </File>
+    <File Include="fonts/1Ptpg8LJRfWJmhDAuUsw9qR_DNCb_Vo.woff2">
+      <publishTime>03/28/2019 10:00:36</publishTime>
+    </File>
+    <File Include="fonts/1Ptsg8LJRfWJmhDAuUs4Q4FqPfE.woff2">
+      <publishTime>03/28/2019 10:00:36</publishTime>
+    </File>
+    <File Include="fonts/1Ptsg8LJRfWJmhDAuUs4QIFqPfE.woff2">
+      <publishTime>03/28/2019 10:00:36</publishTime>
+    </File>
+    <File Include="fonts/1Ptsg8LJRfWJmhDAuUs4QoFqPfE.woff2">
+      <publishTime>03/28/2019 10:00:36</publishTime>
+    </File>
+    <File Include="fonts/1Ptsg8LJRfWJmhDAuUs4SYFqPfE.woff2">
+      <publishTime>03/28/2019 10:00:36</publishTime>
+    </File>
+    <File Include="fonts/1Ptsg8LJRfWJmhDAuUs4ToFqPfE.woff2">
+      <publishTime>03/28/2019 10:00:36</publishTime>
+    </File>
+    <File Include="fonts/1Ptsg8LJRfWJmhDAuUs4TYFq.woff2">
+      <publishTime>03/28/2019 10:00:36</publishTime>
+    </File>
+    <File Include="fonts/Admin/cd-arrow.svg">
+      <publishTime>03/28/2019 10:00:36</publishTime>
+    </File>
+    <File Include="fonts/Admin/fontawesome-webfont.eot">
+      <publishTime>03/28/2019 10:00:36</publishTime>
+    </File>
+    <File Include="fonts/Admin/fontawesome-webfont.ttf">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/fontawesome-webfont.woff">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/fontawesome-webfont.woff2">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/icofont.eot">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/icofont.svg">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/icofont.ttf">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/icofont.woff">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/ionicons.eot">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/ionicons.ttf">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/ionicons.woff">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/magnifier.svg">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/mem5YaGs126MiZpBA-UN7rgOUehpOqc.woff2">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/mem5YaGs126MiZpBA-UN7rgOVuhpOqc.woff2">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/mem5YaGs126MiZpBA-UN7rgOX-hpOqc.woff2">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/mem5YaGs126MiZpBA-UN7rgOXehpOqc.woff2">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/mem5YaGs126MiZpBA-UN7rgOXOhpOqc.woff2">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/mem5YaGs126MiZpBA-UN7rgOXuhpOqc.woff2">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/mem5YaGs126MiZpBA-UN8rsOUehpOqc.woff2">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/mem5YaGs126MiZpBA-UN8rsOUuhp.woff2">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/mem5YaGs126MiZpBA-UN8rsOVuhpOqc.woff2">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/mem5YaGs126MiZpBA-UN8rsOX-hpOqc.woff2">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/mem5YaGs126MiZpBA-UN8rsOXehpOqc.woff2">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/mem5YaGs126MiZpBA-UN8rsOXOhpOqc.woff2">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/mem5YaGs126MiZpBA-UN8rsOXuhpOqc.woff2">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/mem5YaGs126MiZpBA-UNirkOUehpOqc.woff2">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/mem5YaGs126MiZpBA-UNirkOUuhp.woff2">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/mem5YaGs126MiZpBA-UNirkOVuhpOqc.woff2">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/mem5YaGs126MiZpBA-UNirkOX-hpOqc.woff2">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/mem5YaGs126MiZpBA-UNirkOXehpOqc.woff2">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/mem5YaGs126MiZpBA-UNirkOXOhpOqc.woff2">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/mem5YaGs126MiZpBA-UNirkOXuhpOqc.woff2">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/mem5YaGs126MiZpBA-UN_r8OUehpOqc.woff2">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/mem5YaGs126MiZpBA-UN_r8OUuhp.woff2">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/mem5YaGs126MiZpBA-UN_r8OVuhpOqc.woff2">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/mem5YaGs126MiZpBA-UN_r8OX-hpOqc.woff2">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/mem5YaGs126MiZpBA-UN_r8OXehpOqc.woff2">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/mem5YaGs126MiZpBA-UN_r8OXOhpOqc.woff2">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/mem5YaGs126MiZpBA-UN_r8OXuhpOqc.woff2">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/mem8YaGs126MiZpBA-UFUZ0bbck.woff2">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/mem8YaGs126MiZpBA-UFVp0bbck.woff2">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/mem8YaGs126MiZpBA-UFVZ0b.woff2">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/mem8YaGs126MiZpBA-UFW50bbck.woff2">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/mem8YaGs126MiZpBA-UFWJ0bbck.woff2">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/mem8YaGs126MiZpBA-UFWp0bbck.woff2">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/mem8YaGs126MiZpBA-UFWZ0bbck.woff2">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/themify.eot">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/themify.svg">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/themify.ttf">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="fonts/Admin/themify.woff">
+      <publishTime>03/28/2019 10:00:37</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Image/Admin/bg.jpg">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Image/Admin/default-avatar.jpg">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Image/Admin/logo.png">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Image/Admin/user.png">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Image/bienlogo.png">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="LiveChat/new_mess.mp3">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/admin.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/adminlte.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/autoNumeric.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/blinkTitle.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/bootstrap-growl.min.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/bootstrap.min.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/buttons.html5.min.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/buttons.print.min.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/adapters/jquery.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/artical.css">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/build-config.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/CHANGES.md">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/ckeditor-custom.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/ckeditor.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/config.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/contents.css">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/document.css">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/lang/en.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/lang/vi.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/LICENSE.md">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/af.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/az.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/da.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/de-ch.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/de.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/el.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/en-au.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/en.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/es-mx.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/es.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/et.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/eu.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/fo.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/he.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/id.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/it.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/km.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/no.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/oc.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/si.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/th.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/tt.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/about/dialogs/about.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/about/dialogs/logo_ckeditor.png">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/autoembed/lang/ca.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/autoembed/lang/cs.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/autoembed/lang/de-ch.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/autoembed/lang/de.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/autoembed/lang/en.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/autoembed/lang/eo.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/autoembed/lang/es.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/autoembed/lang/eu.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/autoembed/lang/fr.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/autoembed/lang/it.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/autoembed/lang/km.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/autoembed/lang/ko.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/autoembed/lang/ku.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/autoembed/lang/mk.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/autoembed/lang/nb.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/autoembed/lang/nl.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/autoembed/lang/oc.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/autoembed/lang/pl.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/autoembed/lang/pt-br.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/autoembed/lang/pt.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/autoembed/lang/ru.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/autoembed/lang/sk.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/autoembed/lang/sv.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/autoembed/lang/tr.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/autoembed/lang/ug.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/autoembed/lang/uk.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/autoembed/lang/zh-cn.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/autoembed/lang/zh.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/autoembed/plugin.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/autolink/plugin.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/clipboard/dialogs/paste.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/colordialog/dialogs/colordialog.css">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/colordialog/dialogs/colordialog.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/copyformatting/cursors/cursor-disabled.svg">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/copyformatting/cursors/cursor.svg">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/copyformatting/styles/copyformatting.css">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/dialog/dialogDefinition.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/div/dialogs/div.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/embedbase/dialogs/embedbase.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/embedbase/lang/ca.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/embedbase/lang/cs.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/embedbase/lang/da.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/embedbase/lang/de-ch.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/embedbase/lang/de.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/embedbase/lang/en.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/embedbase/lang/eo.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/embedbase/lang/es.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/embedbase/lang/eu.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/embedbase/lang/fr.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/embedbase/lang/gl.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/embedbase/lang/id.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/embedbase/lang/it.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/embedbase/lang/ja.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/embedbase/lang/ko.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/embedbase/lang/ku.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/embedbase/lang/nb.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/embedbase/lang/nl.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/embedbase/lang/oc.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/embedbase/lang/pl.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/embedbase/lang/pt-br.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/embedbase/lang/pt.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/embedbase/lang/ru.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/embedbase/lang/sv.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/embedbase/lang/tr.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/embedbase/lang/ug.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/embedbase/lang/uk.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/embedbase/lang/zh-cn.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/embedbase/lang/zh.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/embedbase/plugin.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/embedsemantic/icons/embedsemantic.png">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/embedsemantic/icons/hidpi/embedsemantic.png">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/embedsemantic/plugin.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/filetools/dev/uploaddebugger.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/filetools/lang/ca.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/filetools/lang/cs.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/filetools/lang/da.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/filetools/lang/de-ch.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/filetools/lang/de.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/filetools/lang/en.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/filetools/lang/eo.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/filetools/lang/es.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/filetools/lang/eu.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/filetools/lang/fr.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/filetools/lang/gl.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/filetools/lang/id.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/filetools/lang/it.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/filetools/lang/ja.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/filetools/lang/km.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/filetools/lang/ko.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/filetools/lang/ku.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/filetools/lang/nb.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/filetools/lang/nl.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/filetools/lang/oc.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/filetools/lang/pl.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/filetools/lang/pt-br.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/filetools/lang/pt.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/filetools/lang/ru.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/filetools/lang/sv.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/filetools/lang/tr.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/filetools/lang/ug.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/filetools/lang/uk.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/filetools/lang/zh-cn.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/filetools/lang/zh.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/filetools/plugin.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/find/dialogs/find.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/flash/dialogs/flash.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/flash/images/placeholder.png">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/forms/dialogs/button.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/forms/dialogs/checkbox.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/forms/dialogs/form.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/forms/dialogs/hiddenfield.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/forms/dialogs/radio.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/forms/dialogs/select.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/forms/dialogs/textarea.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/forms/dialogs/textfield.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/forms/images/hiddenfield.gif">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/icons.png">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/icons_hidpi.png">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/iframe/dialogs/iframe.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/iframe/images/placeholder.png">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image/dialogs/image.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image/images/noimage.png">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/dev/assets/image1.jpg">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/dev/assets/image2.jpg">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/dev/contents.css">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/dialogs/image2.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/icons/hidpi/image.png">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/icons/image.png">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/af.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/ar.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/bg.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/bn.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/bs.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/ca.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/cs.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/cy.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/da.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/de-ch.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/de.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/el.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/en-au.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/en-ca.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/en-gb.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/en.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/eo.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/es.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/et.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/eu.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/fa.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/fi.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/fo.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/fr-ca.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/fr.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/gl.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/gu.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/he.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/hi.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/hr.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/hu.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/id.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/is.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/it.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/ja.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/ka.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/km.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/ko.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/ku.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/lt.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/lv.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/mk.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/mn.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/ms.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/nb.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/nl.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/no.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/oc.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/pl.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/pt-br.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/pt.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/ro.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/ru.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/si.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/sk.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/sl.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/sq.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/sr-latn.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/sr.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/sv.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/th.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/tr.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/tt.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/ug.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/uk.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/vi.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/zh-cn.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/lang/zh.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/plugin.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/samples/assets/image1.jpg">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/image2/samples/assets/image2.jpg">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/dev/indent.html">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/icons/hidpi/indent-rtl.png">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/icons/hidpi/indent.png">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/icons/hidpi/outdent-rtl.png">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/icons/hidpi/outdent.png">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/icons/indent-rtl.png">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/icons/indent.png">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/icons/outdent-rtl.png">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/icons/outdent.png">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/af.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/ar.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/az.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/bg.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/bn.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/bs.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/ca.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/cs.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/cy.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/da.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/de-ch.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/de.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/el.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/en-au.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/en-ca.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/en-gb.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/en.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/eo.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/es-mx.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/es.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/et.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/eu.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/fa.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/fi.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/fo.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/fr-ca.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/fr.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/gl.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/gu.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/he.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/hi.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/hr.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/hu.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/id.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/is.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/it.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/ja.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/ka.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/km.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/ko.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/ku.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/lt.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/lv.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/mk.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/mn.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/ms.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/nb.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/nl.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/no.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/oc.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/pl.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/pt-br.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/pt.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/ro.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/ru.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/si.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/sk.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/sl.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/sq.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/sr-latn.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/sr.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/sv.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/th.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/tr.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/tt.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/ug.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/uk.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/vi.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/zh-cn.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/lang/zh.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/indent/plugin.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/lineheight/lang/ar.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/lineheight/lang/de.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/lineheight/lang/en.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/lineheight/lang/es.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/lineheight/lang/fr.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/lineheight/lang/ko.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/lineheight/lang/LANG.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/lineheight/lang/pt.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/lineheight/LICENSE">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/lineheight/plugin.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/lineheight/README.md">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/lineheight/readme.txt">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/lineutils/plugin.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/link/dialogs/anchor.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/link/dialogs/link.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/link/images/anchor.png">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/link/images/hidpi/anchor.png">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/liststyle/dialogs/liststyle.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/magicline/images/hidpi/icon-rtl.png">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/magicline/images/hidpi/icon.png">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/magicline/images/icon-rtl.png">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/magicline/images/icon.png">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/notification/lang/ca.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/notification/lang/cs.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/notification/lang/da.js">
+      <publishTime>03/28/2019 10:00:30</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/notification/lang/de-ch.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/notification/lang/de.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/notification/lang/en.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/notification/lang/eo.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/notification/lang/es.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/notification/lang/eu.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/notification/lang/fr.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/notification/lang/gl.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/notification/lang/id.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/notification/lang/it.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/notification/lang/ja.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/notification/lang/km.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/notification/lang/ko.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/notification/lang/ku.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/notification/lang/nb.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/notification/lang/nl.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/notification/lang/oc.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/notification/lang/pl.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/notification/lang/pt-br.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/notification/lang/pt.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/notification/lang/ru.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/notification/lang/sv.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/notification/lang/tr.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/notification/lang/ug.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/notification/lang/uk.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/notification/lang/zh-cn.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/notification/lang/zh.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/notification/plugin.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/notificationaggregator/plugin.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/pagebreak/images/pagebreak.gif">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/pastefromword/filter/default.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/preview/preview.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/scayt/dialogs/dialog.css">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/scayt/dialogs/options.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/scayt/dialogs/toolbar.css">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/showblocks/images/block_address.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/showblocks/images/block_blockquote.156.delayed">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/showblocks/images/block_blockquote.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/showblocks/images/block_div.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/showblocks/images/block_h1.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/showblocks/images/block_h2.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/showblocks/images/block_h3.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/showblocks/images/block_h4.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/showblocks/images/block_h5.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/showblocks/images/block_h6.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/showblocks/images/block_p.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/showblocks/images/block_pre.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/smiley/dialogs/smiley.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/smiley/images/angel_smile.gif">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/smiley/images/angel_smile.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/smiley/images/angry_smile.gif">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/smiley/images/angry_smile.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/smiley/images/broken_heart.gif">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/smiley/images/broken_heart.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/smiley/images/confused_smile.gif">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/smiley/images/confused_smile.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/smiley/images/cry_smile.gif">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/smiley/images/cry_smile.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/smiley/images/devil_smile.gif">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/smiley/images/devil_smile.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/smiley/images/embaressed_smile.gif">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/smiley/images/embarrassed_smile.gif">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/smiley/images/embarrassed_smile.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/smiley/images/envelope.gif">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/smiley/images/envelope.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/smiley/images/heart.gif">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/smiley/images/heart.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/smiley/images/kiss.gif">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/smiley/images/kiss.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/smiley/images/lightbulb.gif">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/smiley/images/lightbulb.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/smiley/images/omg_smile.gif">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/smiley/images/omg_smile.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/smiley/images/regular_smile.gif">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/smiley/images/regular_smile.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/smiley/images/sad_smile.gif">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/smiley/images/sad_smile.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/smiley/images/shades_smile.gif">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/smiley/images/shades_smile.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/smiley/images/teeth_smile.gif">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/smiley/images/teeth_smile.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/smiley/images/thumbs_down.gif">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/smiley/images/thumbs_down.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/smiley/images/thumbs_up.gif">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/smiley/images/thumbs_up.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/smiley/images/tongue_smile.gif">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/smiley/images/tongue_smile.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/smiley/images/tounge_smile.gif">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.gif">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/smiley/images/wink_smile.gif">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/smiley/images/wink_smile.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/af.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/ar.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/bg.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/ca.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/cs.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/cy.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/da.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/de-ch.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/de.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/el.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/en-gb.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/en.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/eo.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/es.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/et.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/eu.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/fa.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/fi.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/fr.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/gl.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/he.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/hr.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/hu.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/id.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/it.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/ja.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/km.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/ko.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/ku.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/lt.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/lv.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/nb.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/nl.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/no.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/oc.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/pl.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/pt.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/ru.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/si.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/sk.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/sl.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/sq.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/sv.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/th.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/tr.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/tt.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/ug.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/uk.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/vi.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/zh.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/specialchar/dialogs/specialchar.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/table/dialogs/table.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/tableresize/plugin.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/tableselection/styles/tableselection.css">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/tabletools/dialogs/tableCell.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/templates/dialogs/templates.css">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/templates/dialogs/templates.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/templates/templates/default.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/templates/templates/images/template1.gif">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/templates/templates/images/template2.gif">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/templates/templates/images/template3.gif">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/uploadfile/plugin.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/uploadimage/plugin.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/uploadwidget/dev/filereaderplugin.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/uploadwidget/lang/ca.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/uploadwidget/lang/cs.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/uploadwidget/lang/da.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/uploadwidget/lang/de-ch.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/uploadwidget/lang/de.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/uploadwidget/lang/el.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/uploadwidget/lang/en.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/uploadwidget/lang/eo.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/uploadwidget/lang/es.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/uploadwidget/lang/eu.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/uploadwidget/lang/fr.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/uploadwidget/lang/gl.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/uploadwidget/lang/hu.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/uploadwidget/lang/id.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/uploadwidget/lang/it.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/uploadwidget/lang/ja.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/uploadwidget/lang/km.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/uploadwidget/lang/ko.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/uploadwidget/lang/ku.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/uploadwidget/lang/nb.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/uploadwidget/lang/nl.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/uploadwidget/lang/no.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/uploadwidget/lang/oc.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/uploadwidget/lang/pl.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/uploadwidget/lang/pt-br.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/uploadwidget/lang/pt.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/uploadwidget/lang/ru.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/uploadwidget/lang/sv.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/uploadwidget/lang/tr.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/uploadwidget/lang/ug.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/uploadwidget/lang/uk.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/uploadwidget/lang/zh-cn.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/uploadwidget/lang/zh.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/uploadwidget/plugin.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/dev/assets/contents.css">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/dev/assets/sample.jpg">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/dev/assets/simplebox/contents.css">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/dev/assets/simplebox/dialogs/simplebox.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/dev/assets/simplebox/icons/simplebox.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/dev/assets/simplebox/plugin.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/dev/console.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/images/handle.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/af.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/ar.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/bg.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/ca.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/cs.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/cy.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/da.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/de-ch.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/de.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/el.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/en-gb.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/en.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/eo.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/es.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/eu.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/fa.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/fi.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/fr.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/gl.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/he.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/hr.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/hu.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/id.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/it.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/ja.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/km.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/ko.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/ku.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/lv.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/nb.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/nl.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/no.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/oc.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/pl.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/pt-br.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/pt.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/ru.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/sk.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/sl.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/sq.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/sv.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/tr.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/tt.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/ug.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/uk.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/vi.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/zh-cn.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/lang/zh.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widget/plugin.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/widgetselection/plugin.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/wsc/dialogs/ciframe.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/wsc/dialogs/tmpFrameset.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/wsc/dialogs/wsc.css">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/wsc/dialogs/wsc.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/wsc/dialogs/wsc_ie.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/README.md">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/css/samples.css">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/img/github-top.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/img/header-bg.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/img/header-separator.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/img/logo.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/img/logo.svg">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/img/navigation-tip.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/index.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/js/sample.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/js/sf.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/old/ajax.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/old/api.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/old/appendto.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/old/assets/inlineall/logo.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/old/assets/outputxhtml/outputxhtml.css">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/old/assets/posteddata.php">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/old/assets/sample.jpg">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/old/assets/uilanguages/languages.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/old/datafiltering.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/old/dialog/assets/my_dialog.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/old/dialog/dialog.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/old/divreplace.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/old/enterkey/enterkey.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.fla">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.swf">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/old/htmlwriter/assets/outputforflash/swfobject.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/old/htmlwriter/outputforflash.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/old/htmlwriter/outputhtml.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/old/index.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/old/inlineall.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/old/inlinebycode.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/old/inlinetextarea.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/old/jquery.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/old/magicline/magicline.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/old/readonly.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/old/replacebyclass.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/old/replacebycode.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/old/sample.css">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/old/sample.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/old/sample_posteddata.php">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/old/tabindex.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/old/toolbar/toolbar.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/old/uicolor.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/old/uilanguages.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/old/wysiwygarea/fullpage.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/old/xhtmlstyle.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/toolbarconfigurator/css/fontello.css">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/toolbarconfigurator/font/config.json">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/toolbarconfigurator/font/fontello.eot">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/toolbarconfigurator/font/fontello.svg">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/toolbarconfigurator/font/fontello.ttf">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/toolbarconfigurator/font/fontello.woff">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/toolbarconfigurator/font/LICENSE.txt">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/toolbarconfigurator/index.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/toolbarconfigurator/js/abstracttoolbarmodifier.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/toolbarconfigurator/js/fulltoolbareditor.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/toolbarconfigurator/js/toolbarmodifier.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/toolbarconfigurator/js/toolbartextmodifier.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.css">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/toolbarconfigurator/lib/codemirror/javascript.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/toolbarconfigurator/lib/codemirror/LICENSE">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/toolbarconfigurator/lib/codemirror/neo.css">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.css">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/kama/dialog.css">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/kama/dialog_ie.css">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/kama/dialog_ie7.css">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/kama/dialog_ie8.css">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/kama/dialog_iequirks.css">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/kama/editor.css">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/kama/editor_ie.css">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/kama/editor_ie7.css">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/kama/editor_ie8.css">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/kama/editor_iequirks.css">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/kama/icons.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/kama/icons_hidpi.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/kama/images/dialog_sides.gif">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/kama/images/dialog_sides.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/kama/images/dialog_sides_rtl.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/kama/images/mini.gif">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/kama/images/spinner.gif">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/kama/images/sprites.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/kama/images/sprites_ie6.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/kama/images/toolbar_start.gif">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/kama/readme.md">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/dialog.css">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/dialog_ie.css">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/dialog_ie8.css">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/dialog_iequirks.css">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/editor.css">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/editor_gecko.css">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/editor_ie.css">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/editor_ie8.css">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/editor_iequirks.css">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/icons.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/icons71b3.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/icons_hidpi.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/icons_hidpi71b3.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/images/arrow.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/images/close.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/images/hidpi/close.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/images/hidpi/index.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/images/hidpi/index30b5.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/images/hidpi/index5851.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/images/hidpi/index72c9.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/images/hidpi/indexad3f.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/images/hidpi/indexb70a.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/images/hidpi/indexbfec.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/images/hidpi/indexc052.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/images/hidpi/indexf8a0.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/images/hidpi/lock-open.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/images/hidpi/lock.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/images/hidpi/refresh.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/images/index.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/images/index30b5.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/images/index5851.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/images/index72c9.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/images/indexad3f.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/images/indexb70a.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/images/indexbfec.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/images/indexc052.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/images/indexf8a0.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/images/lock-open.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/images/lock.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/images/refresh.png">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/images/spinner.gif">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/index.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/index30b5.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/index5851.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/index72c9.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/indexad3f.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/indexb70a.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/indexbfec.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/indexc052.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/indexf8a0.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/skins/moono-lisa/readme.html">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/ckeditor/styles.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/classie.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/createInit.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/css-scrollbars.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/custom-dashboard.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/CustomFormData.js">
+      <publishTime>03/28/2019 10:00:29</publishTime>
+    </File>
+    <File Include="Scripts/Admin/d3.min.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/dataTables.bootstrap4.min.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/dataTables.buttons.min.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/dataTables.responsive.min.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/form-mask.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/i18next.min.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/i18nextBrowserLanguageDetector.min.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/i18nextXHRBackend.min.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/inputmask.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/jquery-i18next.min.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/jquery-ui.min.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/jquery.bpopup.min.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/jquery.dataTables.min.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/jquery.inputmask.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/jquery.min.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/jquery.slimscroll.min.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/jquery.timeago.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/jquery.validate.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/jquery.validate.min.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/jszip.min.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/live-chat.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/live-chat.min.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/main.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/modernizr.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/moment.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/morris.min.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/notification.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/pdfmake.min.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/raphael.min.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/responsive.bootstrap4.min.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/rickshaw.min.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/script.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/select2-custom.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/select2.min.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/tether.min.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/Admin/vfs_fonts.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/ajax-cart.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/all.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/api.jquery.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>01/21/2019 13:39:49</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>01/21/2019 13:39:49</publishTime>
+    </File>
+    <File Include="Scripts/cart.js">
+      <publishTime>08/20/2019 11:28:13</publishTime>
+    </File>
+    <File Include="Scripts/fastclick.min.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/frontend.js">
+      <publishTime>08/22/2019 14:18:50</publishTime>
+    </File>
+    <File Include="Scripts/handlebars.min.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.js">
+      <publishTime>01/21/2019 13:39:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.min.js">
+      <publishTime>01/21/2019 13:39:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.min.map">
+      <publishTime>01/21/2019 13:39:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.js">
+      <publishTime>01/21/2019 13:39:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.min.js">
+      <publishTime>01/21/2019 13:39:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.min.map">
+      <publishTime>01/21/2019 13:39:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery.min.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/jquery.signalR-2.4.0.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/jquery.signalR-2.4.0.min.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>01/21/2019 13:39:56</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>01/21/2019 13:39:57</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>01/21/2019 13:39:57</publishTime>
+    </File>
+    <File Include="Scripts/lazyload.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/livechat-embbed.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.8.3.js">
+      <publishTime>01/21/2019 13:39:55</publishTime>
+    </File>
+    <File Include="Scripts/modernizr.min.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/option_selection.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/owl.carousel.min.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/script.js">
+      <publishTime>08/20/2019 09:54:58</publishTime>
+    </File>
+    <File Include="Scripts/slick.min.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/timber.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Scripts/wow.min.js">
+      <publishTime>03/28/2019 10:00:31</publishTime>
+    </File>
+    <File Include="Views/Admin/Account/AccessDenied.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/Account/Index.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/Account/Login.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/Account/Register.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/AdsPosition/Create.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/AdsPosition/Delete.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/AdsPosition/Index.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/Advertising/Create.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/Advertising/Delete.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/Advertising/Index.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/Article/Create.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/Article/Delete.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/Article/Index.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/AspNetRoles/Index.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/AspNetUserRoles/Create.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/AspNetUserRoles/Delete.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/AspNetUserRoles/Index.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/AspNetUsers/ChangePass.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/AspNetUsers/Create.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/AspNetUsers/Delete.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/AspNetUsers/Index.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/AspNetUsers/UserInRoles.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/CartOrder/Create.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/CartOrder/Delete.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/CartOrder/Index.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/CartOrder/ReView.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/Configuration/Create.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/Configuration/Delete.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/Configuration/Index.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/CustomerTools/Create.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/CustomerTools/Delete.cshtml">
+      <publishTime>03/28/2019 11:39:07</publishTime>
+    </File>
+    <File Include="Views/Admin/CustomerTools/Index.cshtml">
+      <publishTime>03/28/2019 13:55:14</publishTime>
+    </File>
+    <File Include="Views/Admin/Dashboard/Index.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/LiveChatHistory/Create.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/LiveChatHistory/Delete.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/LiveChatHistory/Index.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/Menu/Create.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/Menu/Delete.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/Menu/Index.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/Product/Create.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/Product/Delete.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/Product/Import.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/Product/Index.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/ProductProps/Create.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/ProductProps/Delete.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/ProductProps/Index.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/ProductZone/Create.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/ProductZone/Delete.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/ProductZone/Index.cshtml">
+      <publishTime>08/22/2019 13:43:23</publishTime>
+    </File>
+    <File Include="Views/Admin/SysMenu/Create.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/SysMenu/Delete.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/SysMenu/Index.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/Tag/Create.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/Tag/Delete.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/Tag/Index.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/UserInLiveChat/Create.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/UserInLiveChat/Delete.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Admin/UserInLiveChat/Index.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Cart/CheckOut.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Cart/Create.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Cart/Index.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Cart/QuickView.cshtml">
+      <publishTime>08/20/2019 10:09:24</publishTime>
+    </File>
+    <File Include="Views/Cart/_TopCart.cshtml">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Views/Cart/_TopCartMobile.cshtml">
+      <publishTime>08/20/2019 10:57:16</publishTime>
+    </File>
+    <File Include="Views/Home/About.cshtml">
+      <publishTime>01/21/2019 13:39:44</publishTime>
+    </File>
+    <File Include="Views/Home/AjaxProduct.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Home/Contact.cshtml">
+      <publishTime>01/21/2019 13:39:44</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>08/20/2019 11:59:31</publishTime>
+    </File>
+    <File Include="Views/Home/_HomeArticle.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Home/_HomeSlider.cshtml">
+      <publishTime>08/17/2019 16:15:46</publishTime>
+    </File>
+    <File Include="Views/Home/_ProductList.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/List/AjaxProduct.cshtml">
+      <publishTime>08/22/2019 14:14:39</publishTime>
+    </File>
+    <File Include="Views/List/Index.cshtml">
+      <publishTime>08/22/2019 14:20:16</publishTime>
+    </File>
+    <File Include="Views/List/_ProductList.cshtml">
+      <publishTime>08/22/2019 14:23:42</publishTime>
+    </File>
+    <File Include="Views/LiveChat/Index.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/News/Detail.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Product/Index.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Shared/_AdminLayout.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Shared/_LoginLayout.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Shared/_MetaSeo.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>03/28/2019 10:00:32</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/20/2019 11:00:03</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

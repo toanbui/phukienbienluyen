@@ -1,0 +1,156 @@
+﻿@using Utilities
+@{
+    /**/
+
+    ViewBag.Title = "Index";
+}
+<div class="page-wrapper">
+    <!-- Page-header start -->
+    <div class="page-header">
+        <div class="page-header-title">
+            <h4>Quản lý quyền của người dùng</h4>
+        </div>
+        <div class="page-header-breadcrumb">
+            <ul class="breadcrumb-title">
+                <li class="breadcrumb-item">
+                    <a href="@Url.Action("Index","DashBoard")">
+                        <i class="icofont icofont-home"></i>
+                    </a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="@Url.Action("Index","AspNetRoles")">Danh sách</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Page-header end -->
+    <!-- Page-body start -->
+    <div class="page-body">
+        <div class="row">
+            <div class="col-sm-12">
+                <!-- Ajax data source (Arrays) table start -->
+                <div class="card">
+                    <div class="card-header">
+                        <div class="mt-1">
+                            <div class="btn-group " role="group" data-toggle="tooltip" data-placement="top" title="Quản lý người dùng" data-original-title=".btn-xlg"> <a href="@Url.Action("Index", "AspNetUsers")" class="btn btn-primary waves-effect waves-light">Quản lý người dùng</a> </div>
+                        </div>
+                        <div class="mt-2">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="input-group input-group-dropdown">
+                                        @Html.TextBox("keysearch", "", new { @class = "form-control", @placeholder = "Nhập từ khóa cần tìm ..." })
+                                        <div class="input-group-btn">
+                                            <button type="submit" class="btn btn-inverse" onclick="onSearch()">
+                                                Tìm kiếm
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-header-right">
+                            <i class="icofont icofont-rounded-down"></i>
+                            <i class="icofont icofont-refresh"></i>
+                            <i class="icofont icofont-close-circled"></i>
+                        </div>
+                    </div>
+                    <div class="card-block">
+                        <div class="table-responsive dt-responsive">
+                            <table id="dt-ajax-array" class="table table-striped table-bordered nowrap">
+                                <thead>
+                                    <tr>
+                                        <th>Tên Quyền</th>
+                                        <th>Thêm / Xóa</th>
+                                    </tr>
+                                </thead>
+                                <tfoot>
+                                    <tr>
+                                        <th>Tên Quyền</th>
+                                        <th>Thêm / Xóa</th>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!-- Ajax data source (Arrays) table end -->
+            </div>
+        </div>
+    </div>
+    <!-- Page-body end -->
+</div>
+@section scripts {
+    <script>
+        $(document).ready(function () {
+            var oTable = $("#dt-ajax-array").dataTable({
+                "bStateSave": false,
+                "searching": false,
+                "bSort": false,
+                "sPaginationType": "full_numbers",
+                "serverSide": true,
+                "sServerMethod": "POST",
+                "sAjaxSource": "@Url.Action("AjaxUserInRoles", "AspNetUsers")",
+                "iDisplayLength": 50,
+                "order": [[1, "asc"]],
+                "columnDefs": [
+                    { "width": "130px", "targets": 1 }
+                ],
+                "lengthChange": false,
+                "fnServerParams": function (aoData) {
+                    aoData.push(
+                        { "name": "keysearch", "value": $("#keysearch").val() },
+                        { "name": "status", "value": $("#ddl-custom").find("button").attr("data-status") },
+                        { "name": "uid", "value": '@ViewBag.Id' }
+                    );
+                },
+                "aoColumns": [
+                    { "mData": "Name" },
+                    {
+                        "mData": function (data, type, row) {
+                            var btnAdd = "<div class='btn-group ' onclick=\"CreateUIR('" + "@Url.Action("CreateUIR", "AspNetUsers")" + "'" + ", '" + data.Name + "' ,'" + data.UserId +"')\" role='group' data-toggle='tooltip' data-placement='top' title='Sửa' data-original-title='.btn-xlg'> <button type='button' class='btn btn-primary btn-sm waves-effect waves-light'><i class='ti-plus'></i>Thêm quyền</button> </div>";
+                            var btnDelete = "<div class='btn-group ' onclick=\"DeleteUIR('" + "@Url.Action("DeleteUIR", "AspNetUsers")" + "'" + ", '" + data.Name + "' ,'" + data.UserId +"')\" role='group' data-toggle='tooltip' data-placement='top' title='Sửa' data-original-title='.btn-xlg'> <button type='button' class='btn btn-danger btn-sm waves-effect waves-light'><i class='ti-minus'></i>Xóa quyền</button> </div>";
+                            if (data.HasRole) {
+                                return btnDelete;
+                            } else {
+                                return btnAdd;
+                            }
+                        }
+                    }
+                ],
+                "oLanguage": Resource.DataTableVnLang,
+            });
+        });
+        function CreateUIR(url, id , uid) {
+            var cf = confirm("Bạn có chắc chắn muốn thêm quyền !");
+            if (cf == true) {
+                var data = {
+                    roleName: id,
+                    uid : uid
+                }
+                CmsFunc.AjaxPost(url, data, function (res) {
+                    if (res.isSuccess === true) {
+                        reloadGrid(); toastr.success(res.mess, "Message!");
+                    } else {
+                        toastr.error(res.mess, "Message!");
+                    }
+                });
+            } 
+        }
+        function DeleteUIR(url, id , uid) {
+            var cf = confirm("Bạn có chắc chắn muốn xóa quyền !");
+            if (cf == true) {
+                var data = {
+                    roleName: id,
+                    uid : uid
+                }
+                CmsFunc.AjaxPost(url, data, function (res) {
+                    if (res.isSuccess === true) {
+                        reloadGrid(); toastr.success(res.mess, "Message!");
+                    } else {
+                        toastr.error(res.mess, "Message!");
+                    }
+                });
+            } 
+        }
+    </script>
+}

@@ -1,0 +1,41 @@
+﻿@model Entities.Param.ArticleParam
+@using Entities.Entities
+@using Utilities
+
+@if (Model != null && Model.ArticleEntitys != null && Model.ArticleEntitys.Any())
+{
+    <section id="home-articles">
+        <div class="inner">
+            <div class="section-title wow fadeInDown text-center">
+                <h2>Tin tức nổi bật</h2>
+                <span class="section-title-border"></span>
+            </div>
+            <div class="grid">
+                <div id="owl-home-articles-slider" class="owl-carousel owl-theme">
+                    @for (int i = 0; i < Model.ArticleEntitys.Count; i++)
+                    {
+                        var item = Model.ArticleEntitys[i];
+                        <div class="item grid__item wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.75s">
+                            <div class="article-item">
+                                <div class="article-img">
+                                    <a href="@item.Url">
+                                        <img src="@item.Avatar.ChangeThumbSize(400,0)" alt="@item.Title.EncodeTitle()">
+                                    </a>
+                                </div>
+                                <div class="article-info-wrapper">
+                                    <div class="article-title"><a href="@item.Url">@item.Title</a></div>
+                                    <div class="article-desc">@item.Sapo</div>
+                                    <div class="article-info">
+                                        <div class="article-date"><i class="fas fa-calendar-alt"></i> @item.Created.ToString()</div>
+                                        <div class="article-author"><i class="fas fa-user"></i> @item.Author</div>
+                                        @*<div class="article-comment"><i class="fas fa-comments"></i><span class="fb-comments-count" data-href="https://nha-thuoc-suplo.myharavan.com/blogs/news/moi-nguy-hiem-khi-thuong-xuyen-tieu-thu-do-an-nhanh"></span></div>*@
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </section>
+}

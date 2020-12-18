@@ -1,0 +1,432 @@
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\ApplicationInsights.config
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\MvcProject.dll.config
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\MvcProject.dll
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\MvcProject.pdb
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\roslyn\csc.exe
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\roslyn\csc.exe.config
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\roslyn\csc.rsp
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\roslyn\csi.exe
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\roslyn\csi.rsp
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\roslyn\System.AppContext.dll
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\roslyn\vbc.exe
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\roslyn\vbc.exe.config
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\roslyn\vbc.rsp
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\Antlr3.Runtime.dll
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\Microsoft.AI.Web.dll
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\Newtonsoft.Json.dll
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\System.Web.Helpers.dll
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\System.Web.Mvc.dll
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\System.Web.Optimization.dll
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\System.Web.Razor.dll
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\System.Web.WebPages.dll
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\System.Web.WebPages.Razor.dll
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\WebGrease.dll
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\System.Web.Helpers.xml
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\System.Web.Optimization.xml
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\System.Web.Razor.xml
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\System.Web.WebPages.xml
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\System.Web.WebPages.Razor.xml
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\Newtonsoft.Json.xml
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\Antlr3.Runtime.pdb
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\Microsoft.AI.Web.xml
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Toan\source\repos\MvcProject\MvcProject\obj\Debug\MvcProject.csprojAssemblyReference.cache
+C:\Users\Toan\source\repos\MvcProject\MvcProject\obj\Debug\MvcProject.csproj.CoreCompileInputs.cache
+C:\Users\Toan\source\repos\MvcProject\MvcProject\obj\Debug\MvcProject.csproj.CopyComplete
+C:\Users\Toan\source\repos\MvcProject\MvcProject\obj\Debug\MvcProject.dll
+C:\Users\Toan\source\repos\MvcProject\MvcProject\obj\Debug\MvcProject.pdb
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\BO.dll
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\Entities.dll
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\Utilities.dll
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\BO.pdb
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\Entities.pdb
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\Utilities.pdb
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\CacheHelper.dll
+C:\Users\Toan\source\repos\MvcProject\MvcProject\bin\CacheHelper.pdb
+E:\Working\MvcProject\MvcProject\bin\ApplicationInsights.config
+E:\Working\MvcProject\MvcProject\bin\MvcProject.dll.config
+E:\Working\MvcProject\MvcProject\bin\MvcProject.dll
+E:\Working\MvcProject\MvcProject\bin\MvcProject.pdb
+E:\Working\MvcProject\MvcProject\bin\roslyn\csc.exe
+E:\Working\MvcProject\MvcProject\bin\roslyn\csc.exe.config
+E:\Working\MvcProject\MvcProject\bin\roslyn\csc.rsp
+E:\Working\MvcProject\MvcProject\bin\roslyn\csi.exe
+E:\Working\MvcProject\MvcProject\bin\roslyn\csi.rsp
+E:\Working\MvcProject\MvcProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Working\MvcProject\MvcProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Working\MvcProject\MvcProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Working\MvcProject\MvcProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Working\MvcProject\MvcProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Working\MvcProject\MvcProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Working\MvcProject\MvcProject\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Working\MvcProject\MvcProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Working\MvcProject\MvcProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Working\MvcProject\MvcProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Working\MvcProject\MvcProject\bin\roslyn\System.AppContext.dll
+E:\Working\MvcProject\MvcProject\bin\roslyn\System.Collections.Immutable.dll
+E:\Working\MvcProject\MvcProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Working\MvcProject\MvcProject\bin\roslyn\System.IO.FileSystem.dll
+E:\Working\MvcProject\MvcProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Working\MvcProject\MvcProject\bin\roslyn\System.Reflection.Metadata.dll
+E:\Working\MvcProject\MvcProject\bin\roslyn\vbc.exe
+E:\Working\MvcProject\MvcProject\bin\roslyn\vbc.exe.config
+E:\Working\MvcProject\MvcProject\bin\roslyn\vbc.rsp
+E:\Working\MvcProject\MvcProject\bin\roslyn\VBCSCompiler.exe
+E:\Working\MvcProject\MvcProject\bin\roslyn\VBCSCompiler.exe.config
+E:\Working\MvcProject\MvcProject\bin\Antlr3.Runtime.dll
+E:\Working\MvcProject\MvcProject\bin\BO.dll
+E:\Working\MvcProject\MvcProject\bin\CacheHelper.dll
+E:\Working\MvcProject\MvcProject\bin\Entities.dll
+E:\Working\MvcProject\MvcProject\bin\EntityFramework.dll
+E:\Working\MvcProject\MvcProject\bin\EntityFramework.SqlServer.dll
+E:\Working\MvcProject\MvcProject\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Working\MvcProject\MvcProject\bin\Microsoft.AI.DependencyCollector.dll
+E:\Working\MvcProject\MvcProject\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Working\MvcProject\MvcProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Working\MvcProject\MvcProject\bin\Microsoft.AI.Web.dll
+E:\Working\MvcProject\MvcProject\bin\Microsoft.AI.WindowsServer.dll
+E:\Working\MvcProject\MvcProject\bin\Microsoft.ApplicationInsights.dll
+E:\Working\MvcProject\MvcProject\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Working\MvcProject\MvcProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Working\MvcProject\MvcProject\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Working\MvcProject\MvcProject\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+E:\Working\MvcProject\MvcProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Working\MvcProject\MvcProject\bin\Microsoft.Owin.dll
+E:\Working\MvcProject\MvcProject\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Working\MvcProject\MvcProject\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Working\MvcProject\MvcProject\bin\Microsoft.Owin.Security.dll
+E:\Working\MvcProject\MvcProject\bin\Microsoft.Web.Infrastructure.dll
+E:\Working\MvcProject\MvcProject\bin\Newtonsoft.Json.dll
+E:\Working\MvcProject\MvcProject\bin\Owin.dll
+E:\Working\MvcProject\MvcProject\bin\System.Diagnostics.DiagnosticSource.dll
+E:\Working\MvcProject\MvcProject\bin\System.Net.Http.Formatting.dll
+E:\Working\MvcProject\MvcProject\bin\System.Web.Helpers.dll
+E:\Working\MvcProject\MvcProject\bin\System.Web.Http.dll
+E:\Working\MvcProject\MvcProject\bin\System.Web.Http.WebHost.dll
+E:\Working\MvcProject\MvcProject\bin\System.Web.Mvc.dll
+E:\Working\MvcProject\MvcProject\bin\System.Web.Optimization.dll
+E:\Working\MvcProject\MvcProject\bin\System.Web.Razor.dll
+E:\Working\MvcProject\MvcProject\bin\System.Web.WebPages.Deployment.dll
+E:\Working\MvcProject\MvcProject\bin\System.Web.WebPages.dll
+E:\Working\MvcProject\MvcProject\bin\System.Web.WebPages.Razor.dll
+E:\Working\MvcProject\MvcProject\bin\Utilities.dll
+E:\Working\MvcProject\MvcProject\bin\WebGrease.dll
+E:\Working\MvcProject\MvcProject\bin\DAO.dll
+E:\Working\MvcProject\MvcProject\bin\Enyim.Caching.dll
+E:\Working\MvcProject\MvcProject\bin\BO.pdb
+E:\Working\MvcProject\MvcProject\bin\CacheHelper.pdb
+E:\Working\MvcProject\MvcProject\bin\Entities.pdb
+E:\Working\MvcProject\MvcProject\bin\Entities.dll.config
+E:\Working\MvcProject\MvcProject\bin\Utilities.pdb
+E:\Working\MvcProject\MvcProject\bin\EntityFramework.xml
+E:\Working\MvcProject\MvcProject\bin\EntityFramework.SqlServer.xml
+E:\Working\MvcProject\MvcProject\bin\Microsoft.Owin.xml
+E:\Working\MvcProject\MvcProject\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Working\MvcProject\MvcProject\bin\Microsoft.Owin.Security.xml
+E:\Working\MvcProject\MvcProject\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Working\MvcProject\MvcProject\bin\System.Net.Http.Formatting.xml
+E:\Working\MvcProject\MvcProject\bin\System.Web.Http.xml
+E:\Working\MvcProject\MvcProject\bin\System.Web.Http.WebHost.xml
+E:\Working\MvcProject\MvcProject\bin\System.Web.Helpers.xml
+E:\Working\MvcProject\MvcProject\bin\System.Web.Optimization.xml
+E:\Working\MvcProject\MvcProject\bin\System.Web.Razor.xml
+E:\Working\MvcProject\MvcProject\bin\System.Web.WebPages.xml
+E:\Working\MvcProject\MvcProject\bin\System.Web.WebPages.Deployment.xml
+E:\Working\MvcProject\MvcProject\bin\System.Web.WebPages.Razor.xml
+E:\Working\MvcProject\MvcProject\bin\Newtonsoft.Json.xml
+E:\Working\MvcProject\MvcProject\bin\Antlr3.Runtime.pdb
+E:\Working\MvcProject\MvcProject\bin\System.Diagnostics.DiagnosticSource.xml
+E:\Working\MvcProject\MvcProject\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+E:\Working\MvcProject\MvcProject\bin\Microsoft.AI.DependencyCollector.xml
+E:\Working\MvcProject\MvcProject\bin\Microsoft.AI.WindowsServer.xml
+E:\Working\MvcProject\MvcProject\bin\Microsoft.AI.Web.xml
+E:\Working\MvcProject\MvcProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Working\MvcProject\MvcProject\bin\DAO.pdb
+E:\Working\MvcProject\MvcProject\bin\DAO.dll.config
+E:\Working\MvcProject\MvcProject\bin\Enyim.Caching.xml
+E:\Working\MvcProject\MvcProject\obj\Debug\MvcProject.csprojAssemblyReference.cache
+E:\Working\MvcProject\MvcProject\obj\Debug\MvcProject.csproj.CoreCompileInputs.cache
+E:\Working\MvcProject\MvcProject\obj\Debug\MvcProject.csproj.CopyComplete
+E:\Working\MvcProject\MvcProject\obj\Debug\MvcProject.dll
+E:\Working\MvcProject\MvcProject\obj\Debug\MvcProject.pdb
+E:\Working\MvcProject\MvcProject\bin\Microsoft.AspNet.SignalR.Core.dll
+E:\Working\MvcProject\MvcProject\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+E:\Working\MvcProject\MvcProject\bin\Microsoft.AspNet.SignalR.Core.pdb
+E:\Working\MvcProject\MvcProject\bin\Microsoft.AspNet.SignalR.Core.xml
+E:\Working\MvcProject\MvcProject\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+E:\Working\MvcProject\MvcProject\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+E:\Working\MvcProject\MvcProject\bin\ExcelDataReader.dll
+E:\Working\MvcProject\MvcProject\bin\ExcelDataReader.pdb
+E:\Working\MvcProject\MvcProject\bin\ExcelDataReader.xml
+E:\Working\MvcProject\MvcProject\bin\ExcelDataReader.DataSet.dll
+E:\Working\MvcProject\MvcProject\bin\ExcelDataReader.DataSet.pdb
+E:\Working\MvcProject\MvcProject\bin\ExcelDataReader.DataSet.xml
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\ApplicationInsights.config
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\MvcProject.dll.config
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\MvcProject.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\MvcProject.pdb
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\roslyn\csc.exe
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\roslyn\csc.exe.config
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\roslyn\csc.rsp
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\roslyn\csi.exe
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\roslyn\csi.rsp
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\roslyn\System.AppContext.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\roslyn\System.Collections.Immutable.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\roslyn\System.IO.FileSystem.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\roslyn\System.Reflection.Metadata.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\roslyn\vbc.exe
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\roslyn\vbc.exe.config
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\roslyn\vbc.rsp
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\roslyn\VBCSCompiler.exe
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\roslyn\VBCSCompiler.exe.config
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\Antlr3.Runtime.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\BO.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\CacheHelper.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\Entities.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\EntityFramework.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\EntityFramework.SqlServer.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\Microsoft.AI.DependencyCollector.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\Microsoft.AI.Web.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\Microsoft.AI.WindowsServer.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\Microsoft.ApplicationInsights.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\Microsoft.AspNet.SignalR.Core.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\Microsoft.Owin.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\Microsoft.Owin.Security.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\Microsoft.Web.Infrastructure.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\Newtonsoft.Json.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\Owin.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\System.Diagnostics.DiagnosticSource.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\System.Net.Http.Formatting.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\System.Web.Helpers.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\System.Web.Http.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\System.Web.Http.WebHost.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\System.Web.Mvc.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\System.Web.Optimization.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\System.Web.Razor.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\System.Web.WebPages.Deployment.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\System.Web.WebPages.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\System.Web.WebPages.Razor.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\Utilities.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\WebGrease.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\DAO.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\Enyim.Caching.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\ExcelDataReader.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\ExcelDataReader.DataSet.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\BO.pdb
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\CacheHelper.pdb
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\Entities.pdb
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\Entities.dll.config
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\Utilities.pdb
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\EntityFramework.xml
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\EntityFramework.SqlServer.xml
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\Microsoft.AspNet.SignalR.Core.pdb
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\Microsoft.AspNet.SignalR.Core.xml
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\Microsoft.Owin.xml
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\Microsoft.Owin.Security.xml
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\System.Net.Http.Formatting.xml
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\System.Web.Http.xml
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\System.Web.Http.WebHost.xml
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\System.Web.Helpers.xml
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\System.Web.Optimization.xml
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\System.Web.Razor.xml
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\System.Web.WebPages.xml
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\System.Web.WebPages.Deployment.xml
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\System.Web.WebPages.Razor.xml
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\Newtonsoft.Json.xml
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\Antlr3.Runtime.pdb
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\System.Diagnostics.DiagnosticSource.xml
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\Microsoft.AI.DependencyCollector.xml
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\Microsoft.AI.WindowsServer.xml
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\Microsoft.AI.Web.xml
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\DAO.pdb
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\DAO.dll.config
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\Enyim.Caching.xml
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\ExcelDataReader.pdb
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\ExcelDataReader.xml
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\ExcelDataReader.DataSet.pdb
+E:\Working\Team Foundation Server\WebBien\MvcProject\bin\ExcelDataReader.DataSet.xml
+E:\Working\Team Foundation Server\WebBien\MvcProject\obj\Debug\MvcProject.csprojAssemblyReference.cache
+E:\Working\Team Foundation Server\WebBien\MvcProject\obj\Debug\MvcProject.csproj.CoreCompileInputs.cache
+E:\Working\Team Foundation Server\WebBien\MvcProject\obj\Debug\MvcProject.csproj.CopyComplete
+E:\Working\Team Foundation Server\WebBien\MvcProject\obj\Debug\MvcProject.dll
+E:\Working\Team Foundation Server\WebBien\MvcProject\obj\Debug\MvcProject.pdb
+D:\Code\TFS\WebBien\MvcProject\bin\ApplicationInsights.config
+D:\Code\TFS\WebBien\MvcProject\bin\MvcProject.dll.config
+D:\Code\TFS\WebBien\MvcProject\bin\MvcProject.dll
+D:\Code\TFS\WebBien\MvcProject\bin\MvcProject.pdb
+D:\Code\TFS\WebBien\MvcProject\bin\roslyn\csc.exe
+D:\Code\TFS\WebBien\MvcProject\bin\roslyn\csc.exe.config
+D:\Code\TFS\WebBien\MvcProject\bin\roslyn\csc.rsp
+D:\Code\TFS\WebBien\MvcProject\bin\roslyn\csi.exe
+D:\Code\TFS\WebBien\MvcProject\bin\roslyn\csi.rsp
+D:\Code\TFS\WebBien\MvcProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Code\TFS\WebBien\MvcProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Code\TFS\WebBien\MvcProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Code\TFS\WebBien\MvcProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Code\TFS\WebBien\MvcProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Code\TFS\WebBien\MvcProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Code\TFS\WebBien\MvcProject\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Code\TFS\WebBien\MvcProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Code\TFS\WebBien\MvcProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Code\TFS\WebBien\MvcProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Code\TFS\WebBien\MvcProject\bin\roslyn\System.AppContext.dll
+D:\Code\TFS\WebBien\MvcProject\bin\roslyn\System.Collections.Immutable.dll
+D:\Code\TFS\WebBien\MvcProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Code\TFS\WebBien\MvcProject\bin\roslyn\System.IO.FileSystem.dll
+D:\Code\TFS\WebBien\MvcProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Code\TFS\WebBien\MvcProject\bin\roslyn\System.Reflection.Metadata.dll
+D:\Code\TFS\WebBien\MvcProject\bin\roslyn\vbc.exe
+D:\Code\TFS\WebBien\MvcProject\bin\roslyn\vbc.exe.config
+D:\Code\TFS\WebBien\MvcProject\bin\roslyn\vbc.rsp
+D:\Code\TFS\WebBien\MvcProject\bin\roslyn\VBCSCompiler.exe
+D:\Code\TFS\WebBien\MvcProject\bin\roslyn\VBCSCompiler.exe.config
+D:\Code\TFS\WebBien\MvcProject\bin\Antlr3.Runtime.dll
+D:\Code\TFS\WebBien\MvcProject\bin\BO.dll
+D:\Code\TFS\WebBien\MvcProject\bin\CacheHelper.dll
+D:\Code\TFS\WebBien\MvcProject\bin\Entities.dll
+D:\Code\TFS\WebBien\MvcProject\bin\EntityFramework.dll
+D:\Code\TFS\WebBien\MvcProject\bin\EntityFramework.SqlServer.dll
+D:\Code\TFS\WebBien\MvcProject\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Code\TFS\WebBien\MvcProject\bin\Microsoft.AI.DependencyCollector.dll
+D:\Code\TFS\WebBien\MvcProject\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Code\TFS\WebBien\MvcProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Code\TFS\WebBien\MvcProject\bin\Microsoft.AI.Web.dll
+D:\Code\TFS\WebBien\MvcProject\bin\Microsoft.AI.WindowsServer.dll
+D:\Code\TFS\WebBien\MvcProject\bin\Microsoft.ApplicationInsights.dll
+D:\Code\TFS\WebBien\MvcProject\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Code\TFS\WebBien\MvcProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Code\TFS\WebBien\MvcProject\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Code\TFS\WebBien\MvcProject\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\Code\TFS\WebBien\MvcProject\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\Code\TFS\WebBien\MvcProject\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\Code\TFS\WebBien\MvcProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Code\TFS\WebBien\MvcProject\bin\Microsoft.Owin.dll
+D:\Code\TFS\WebBien\MvcProject\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Code\TFS\WebBien\MvcProject\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Code\TFS\WebBien\MvcProject\bin\Microsoft.Owin.Security.dll
+D:\Code\TFS\WebBien\MvcProject\bin\Microsoft.Web.Infrastructure.dll
+D:\Code\TFS\WebBien\MvcProject\bin\Newtonsoft.Json.dll
+D:\Code\TFS\WebBien\MvcProject\bin\Owin.dll
+D:\Code\TFS\WebBien\MvcProject\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Code\TFS\WebBien\MvcProject\bin\System.Net.Http.Formatting.dll
+D:\Code\TFS\WebBien\MvcProject\bin\System.Web.Helpers.dll
+D:\Code\TFS\WebBien\MvcProject\bin\System.Web.Http.dll
+D:\Code\TFS\WebBien\MvcProject\bin\System.Web.Http.WebHost.dll
+D:\Code\TFS\WebBien\MvcProject\bin\System.Web.Mvc.dll
+D:\Code\TFS\WebBien\MvcProject\bin\System.Web.Optimization.dll
+D:\Code\TFS\WebBien\MvcProject\bin\System.Web.Razor.dll
+D:\Code\TFS\WebBien\MvcProject\bin\System.Web.WebPages.Deployment.dll
+D:\Code\TFS\WebBien\MvcProject\bin\System.Web.WebPages.dll
+D:\Code\TFS\WebBien\MvcProject\bin\System.Web.WebPages.Razor.dll
+D:\Code\TFS\WebBien\MvcProject\bin\Utilities.dll
+D:\Code\TFS\WebBien\MvcProject\bin\WebGrease.dll
+D:\Code\TFS\WebBien\MvcProject\bin\DAO.dll
+D:\Code\TFS\WebBien\MvcProject\bin\Enyim.Caching.dll
+D:\Code\TFS\WebBien\MvcProject\bin\ExcelDataReader.dll
+D:\Code\TFS\WebBien\MvcProject\bin\ExcelDataReader.DataSet.dll
+D:\Code\TFS\WebBien\MvcProject\bin\BO.pdb
+D:\Code\TFS\WebBien\MvcProject\bin\CacheHelper.pdb
+D:\Code\TFS\WebBien\MvcProject\bin\Entities.pdb
+D:\Code\TFS\WebBien\MvcProject\bin\Entities.dll.config
+D:\Code\TFS\WebBien\MvcProject\bin\Utilities.pdb
+D:\Code\TFS\WebBien\MvcProject\bin\EntityFramework.xml
+D:\Code\TFS\WebBien\MvcProject\bin\EntityFramework.SqlServer.xml
+D:\Code\TFS\WebBien\MvcProject\bin\Microsoft.AspNet.SignalR.Core.pdb
+D:\Code\TFS\WebBien\MvcProject\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\Code\TFS\WebBien\MvcProject\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+D:\Code\TFS\WebBien\MvcProject\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\Code\TFS\WebBien\MvcProject\bin\Microsoft.Owin.xml
+D:\Code\TFS\WebBien\MvcProject\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Code\TFS\WebBien\MvcProject\bin\Microsoft.Owin.Security.xml
+D:\Code\TFS\WebBien\MvcProject\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Code\TFS\WebBien\MvcProject\bin\System.Net.Http.Formatting.xml
+D:\Code\TFS\WebBien\MvcProject\bin\System.Web.Http.xml
+D:\Code\TFS\WebBien\MvcProject\bin\System.Web.Http.WebHost.xml
+D:\Code\TFS\WebBien\MvcProject\bin\System.Web.Helpers.xml
+D:\Code\TFS\WebBien\MvcProject\bin\System.Web.Optimization.xml
+D:\Code\TFS\WebBien\MvcProject\bin\System.Web.Razor.xml
+D:\Code\TFS\WebBien\MvcProject\bin\System.Web.WebPages.xml
+D:\Code\TFS\WebBien\MvcProject\bin\System.Web.WebPages.Deployment.xml
+D:\Code\TFS\WebBien\MvcProject\bin\System.Web.WebPages.Razor.xml
+D:\Code\TFS\WebBien\MvcProject\bin\Newtonsoft.Json.xml
+D:\Code\TFS\WebBien\MvcProject\bin\Antlr3.Runtime.pdb
+D:\Code\TFS\WebBien\MvcProject\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Code\TFS\WebBien\MvcProject\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\Code\TFS\WebBien\MvcProject\bin\Microsoft.AI.DependencyCollector.xml
+D:\Code\TFS\WebBien\MvcProject\bin\Microsoft.AI.WindowsServer.xml
+D:\Code\TFS\WebBien\MvcProject\bin\Microsoft.AI.Web.xml
+D:\Code\TFS\WebBien\MvcProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Code\TFS\WebBien\MvcProject\bin\DAO.pdb
+D:\Code\TFS\WebBien\MvcProject\bin\DAO.dll.config
+D:\Code\TFS\WebBien\MvcProject\bin\Enyim.Caching.xml
+D:\Code\TFS\WebBien\MvcProject\bin\ExcelDataReader.pdb
+D:\Code\TFS\WebBien\MvcProject\bin\ExcelDataReader.xml
+D:\Code\TFS\WebBien\MvcProject\bin\ExcelDataReader.DataSet.pdb
+D:\Code\TFS\WebBien\MvcProject\bin\ExcelDataReader.DataSet.xml
+D:\Code\TFS\WebBien\MvcProject\obj\Debug\MvcProject.csprojAssemblyReference.cache
+D:\Code\TFS\WebBien\MvcProject\obj\Debug\MvcProject.csproj.CoreCompileInputs.cache
+D:\Code\TFS\WebBien\MvcProject\obj\Debug\MvcProject.csproj.CopyComplete
+D:\Code\TFS\WebBien\MvcProject\obj\Debug\MvcProject.dll
+D:\Code\TFS\WebBien\MvcProject\obj\Debug\MvcProject.pdb

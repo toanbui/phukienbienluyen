@@ -1,0 +1,84 @@
+﻿@model Entities.Param.CartOrderParam
+@using Entities.Entities
+@{
+    ViewBag.Title = "";
+    ViewBag.Description = "";
+}
+<script src="~/Scripts/Admin/inputmask.js"></script>
+<script src="~/Scripts/Admin/jquery.inputmask.js"></script>
+<script src="~/Scripts/Admin/form-mask.js"></script>
+<script src="~/Scripts/Admin/createInit.js"></script>
+
+<div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title">Thông tin</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        @using (Html.BeginForm("Create", "CartOrder", FormMethod.Post, new { @class = "form-horizontal", @data_parsley_type = "", id = "frCreate", @role = "form" }))
+        {
+            @Html.AntiForgeryToken()
+            @Html.HiddenFor(x => x.CartOrder.Id)
+			@Html.HiddenFor(x => x.CartOrder.Created)
+
+        <div class="modal-body p-b-0">
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Name</label>
+                <div class="col-sm-10 "> @Html.TextBoxFor(x => x.CartOrder.Name, new { @class = "col-xs-12 col-sm-12 form-control", @placeholder = "" }) </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10 "> @Html.TextBoxFor(x => x.CartOrder.Email, new { @class = "col-xs-12 col-sm-12 form-control", @placeholder = "" }) </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Phone</label>
+                <div class="col-sm-10 "> @Html.TextBoxFor(x => x.CartOrder.Phone, new { @class = "col-xs-12 col-sm-12 form-control", @placeholder = "" }) </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Province</label>
+                <div class="col-sm-10 "> @Html.TextBoxFor(x => x.CartOrder.Province, new { @class = "col-xs-12 col-sm-12 form-control", @placeholder = "" }) </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">District</label>
+                <div class="col-sm-10 "> @Html.TextBoxFor(x => x.CartOrder.District, new { @class = "col-xs-12 col-sm-12 form-control", @placeholder = "" }) </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Address</label>
+                <div class="col-sm-10 "> @Html.TextBoxFor(x => x.CartOrder.Address, new { @class = "col-xs-12 col-sm-12 form-control", @placeholder = "" }) </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">ZipCode</label>
+                <div class="col-sm-10 "> @Html.TextBoxFor(x => x.CartOrder.ZipCode, new { @class = "col-xs-12 col-sm-12 form-control", @placeholder = "" }) </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">ProductIds</label>
+                <div class="col-sm-10 "> @Html.TextBoxFor(x => x.CartOrder.ProductIds, new { @class = "col-xs-12 col-sm-12 form-control", @placeholder = "" }) </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Approved</label>
+                <div class="col-sm-10 border-checkbox-section">
+                    <div class="border-checkbox-group border-checkbox-group-primary"> @Html.CheckBox("CartOrder.Approved", Model.CartOrder.Approved == true, new { @class = "border-checkbox" }) <label class="border-checkbox-label" for="CartOrder_Approved"></label> </div>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">ApprovedBy</label>
+                <div class="col-sm-10 "> @Html.TextBoxFor(x => x.CartOrder.ApprovedBy, new { @class = "col-xs-12 col-sm-12 form-control", @placeholder = "" }) </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Trạng thái</label>
+                <div class="col-sm-10">
+                    @Html.DropDownListFor(x => x.CartOrder.Status, ViewBag.Status as IEnumerable
+                    <SelectListItem>
+                    , new { @class = "form-control", @placeholder = "" , init_select2 = "true", data_selected = Model.CartOrder.Status, data_placeholder = "Chọn trạng thái" })
+                </div>
+            </div>
+        </div>
+            <div class="modal-footer">
+                <button type="button" onclick="sendCreate('@Url.Action("Create", "CartOrder")')" class="btn btn-primary">Lưu</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Hủy</button>
+            </div>
+        }
+    </div>
+</div>

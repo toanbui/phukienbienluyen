@@ -1,0 +1,182 @@
+﻿@model Entities.Param.ProductParam
+@using Entities.Entities
+@using Utilities
+@{
+    ViewBag.Title = "Tạo Sản phẩm";
+    ViewBag.Description = "Tạo sản phẩm";
+
+    List<string> ListAvatar = ViewBag.ListAvatar as List<string>;
+    IEnumerable<ProductPropsEntity> Props = ViewBag.Props as IEnumerable<ProductPropsEntity>;
+}
+<script src="~/Scripts/Admin/inputmask.js"></script>
+<script src="~/Scripts/Admin/jquery.inputmask.js"></script>
+<script src="~/Scripts/Admin/form-mask.js"></script>
+<script src="~/Scripts/Admin/createInit.js"></script>
+
+
+<div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title">Thông tin</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        @using (Html.BeginForm("Create", "Product", FormMethod.Post, new { @class = "form-horizontal", @data_parsley_type = "", id = "frCreate", @role = "form" }))
+        {
+            @Html.AntiForgeryToken()
+            @Html.HiddenFor(x => x.Product.Id)
+            @Html.HiddenFor(x => x.Product.Avatar)
+
+            <div class="modal-body p-b-0">
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label">Name</label>
+                    <div class="col-sm-10 "> @Html.TextBoxFor(x => x.Product.Name, new { @Required = "Required", @class = "col-xs-12 col-sm-12 form-control", @placeholder = "" }) </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label">Danh mục</label>
+                    <div class="col-sm-10 ">
+                        @Html.DropDownListFor(x => x.Product.ZoneId, (ViewBag.Categorys as IEnumerable<ProductZoneEntity>).Select(n => new SelectListItem { Selected = n.Id == Model.Product.Id, Text = n.Name, Value = n.Id.ToString() }), new { @class = "col-xs-12 col-sm-12 form-control", @placeholder = "", @Required = "Required", init_select2 = "true", data_selected = Model.Product.ZoneId , data_placeholder = "Chọn danh mục" })
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label">Mô tả</label>
+                    <div class="col-sm-10 "> @Html.TextAreaFor(x => x.Product.Description, new { @class = "col-xs-12 col-sm-12 form-control ckeditor", @placeholder = "" }) </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label">Giá sản phẩm</label>
+                    <div class="col-sm-10 "> @Html.TextBoxFor(x => x.Product.Price, new { @Required = "Required", @class = "col-xs-12 col-sm-12 form-control autonumber int", @placeholder = "" }) </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label">Thuộc tính</label>
+                    <div class="col-sm-10 ">
+                        @*data-* là các thuộc tính động cho action Delete Add Properties*@
+                        <select class="col-sm-12" data-controller="Product" data-delete="DeleteProps" data-add="AddProps" data-id="@Model.Product.Id" data-selected="@(Json.Encode(Model.PropsOfProductIds))" data-create="@ViewBag.Create" data-hdinput="hdProps" data-placeholder="Chọn thuộc tính" init-select2="true" multiple="multiple">
+                            @if (Props != null && Props.Any())
+                            {
+                                foreach (var prop in Props)
+                                {
+                                    <option value="@prop.Id">@prop.Name</option>
+                                }
+                            }
+                        </select>
+
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label">Ảnh</label>
+                    <div class="col-sm-10 ">
+                        <div class="row">
+                            <div class="col-sm-12"> <input type="file" id="fileInput" name="" multiple="true" class="actFile form-control" /> </div>
+                            <div class="col-sm-12">
+                                <div class="preview-container m-t-15 row">
+                                    @if (ListAvatar != null && ListAvatar.Any())
+                                    {
+                                        foreach (var item in ListAvatar)
+                                        {
+                                            <div class="col-lg-2 avatar-item col-sm-6">
+                                                <div class="thumbnail">
+                                                    <div class="thumb">
+                                                        <a href="javascript:;" class="current-image" data-src="@item" onclick="removeImage(this)">
+                                                            <img src="@item.ChangeThumbSize(200,200)" alt="" class="img-fluid img-thumbnail">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        }
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                @*<div class="form-group row">
+                    <label class="col-sm-2 col-form-label">Body</label>
+                    <div class="col-sm-10 "> @Html.TextAreaFor(x => x.Product.Body, new { @class = "col-xs-12 col-sm-12 form-control ckeditor", @placeholder = "" }) </div>
+                </div>*@
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label">Trạng thái</label>
+                    <div class="col-sm-10">
+                        @Html.DropDownListFor(x => x.Product.Status, ViewBag.Status as IEnumerable
+                        <SelectListItem>
+                        , new { @class = "form-control", @placeholder = "" , init_select2 = "true", data_selected = Model.Product.Status, data_placeholder = "Chọn trạng thái" })
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" onclick="sendCreateFormData('@Url.Action("Create", "Product")')" class="btn btn-primary">Lưu</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Hủy</button>
+            </div>
+        }
+    </div>
+</div>
+
+<script>
+    var formDataCustom = new FormDataCustom();
+    $(function () {
+
+        $("#fileInput").on("change", function (e) {
+            var selectedFiles = e.target.files;
+            for (var i = 0, f; f = selectedFiles[i]; i++) {
+                var reader = new FileReader();
+
+                // Closure to capture the file information.
+                reader.onload = (function (theFile) {
+                    return function (e) {
+                        // Render thumbnail.
+                        var imgRow = "<div class='col-lg-2 avatar-item col-sm-6'> <div class='thumbnail'> <div class='thumb'> <a href='javascript:;' onclick='removeImage(this)' data-file-name='{filename}'> <img src='{source}' alt='' class='img-fluid img-thumbnail'> </a> </div> </div> </div>".replace("{source}", e.target.result).replace("{filename}", theFile.name);
+                        $(".preview-container").append(imgRow);
+                        formDataCustom.append(theFile.name, theFile);
+                    };
+                })(f);
+                reader.readAsDataURL(f);
+            }
+        });
+    });
+    function removeImage(e) {
+        $(e).closest(".avatar-item").remove();
+        var className = $(e).attr("class");
+        var arrPath = [];
+        if (className == "current-image") {
+            $(".preview-container .avatar-item").each(function () {
+                var imgSrc = $(this).find(".current-image").data("src");
+                if (imgSrc != "") {
+                    arrPath.push(imgSrc);
+                }
+            });
+            document.getElementById('Product_Avatar').value = arrPath.join(';');
+        } else {
+            var fileName = $(e).data("file-name");
+            formDataCustom = formDataCustom.del(fileName);
+        }
+    }
+    function sendCreateFormData(url) {
+
+        var form = $('form#frCreate');
+
+        var fdImage = formDataCustom.safe();
+
+        //validate
+        if (!form.valid()) {
+            form.validate().focusInvalid();
+            return;
+        }
+
+        CKupdate();
+
+        var fd = getFormSubmitData(form.get(0), fdImage);
+
+        //submit
+        CmsFunc.AjaxNoprocessData(url, fd, function (data) {
+            if (data.isSuccess === true) {
+                $("#CreateModal").modal('hide');
+                reloadGrid(); toastr.success(data.mess, "Message!");
+                FlushCache();
+            } else {
+                toastr.error(data.mess, "Message!");
+            }
+        });
+    }
+
+</script>

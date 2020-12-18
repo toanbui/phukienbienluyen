@@ -1,0 +1,40 @@
+﻿{
+  "Rules": [
+    {
+      "Url": "/$",
+      "UrlReplace": "/home?url=/"
+    },
+    {
+      "Url": "/\\?([a-z-A-Z0-9]+)",
+      "UrlReplace": "/home?url=/"
+    },
+    {
+      "Url": "/live-chat.html$",
+      "UrlReplace": "/livechat?url=/live-chat.html"
+    },
+    {
+      "Url": "/gio-hang.html$",
+      "UrlReplace": "/cart?url=/gio-hang.html"
+    },
+    {
+      "Url": "/danh-muc/([a-z-A-Z0-9]+)-([0-9]+).html$",
+      "UrlReplace": "/list?catId=$2&url=/danh-muc/$1-$2.html"
+    },
+    {
+      "Url": "/zoom/([0-9]+)_([0-9]+)/([a-z-A-Z0-9_\/.]+).html",
+      "UrlReplace": "/thumbimage?w=$1&h=$2&path=/$3"
+    },
+    {
+      "Url": "/tin-tuc/([a-z-A-Z0-9]+)-([0-9]+).html$",
+      "UrlReplace": "/news/detail?newsId=$2&url=/tin-tuc/$1-$2.html"
+    },
+    {
+      "Url": "/tin-tuc-([0-9]+).html$",
+      "UrlReplace": "/news/detail?newsId=$1&url=/tin-tuc-$1.html"
+    },
+    {
+      "Url": "/dat-hang.html$",
+      "UrlReplace": "/cart/checkout?url=/dat-hang.html"
+    }
+  ]
+}

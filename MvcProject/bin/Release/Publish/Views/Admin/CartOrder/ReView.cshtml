@@ -1,0 +1,70 @@
+﻿@model Entities.Param.CartOrderParam
+@using Entities.Entities
+@using Utilities;
+@{
+    ViewBag.Title = "";
+    ViewBag.Description = "";
+}
+<script src="~/Scripts/Admin/inputmask.js"></script>
+<script src="~/Scripts/Admin/jquery.inputmask.js"></script>
+<script src="~/Scripts/Admin/form-mask.js"></script>
+<script src="~/Scripts/Admin/createInit.js"></script>
+
+<div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title">Thông tin</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        @using (Html.BeginForm("ReView", "CartOrder", FormMethod.Post, new { @class = "form-horizontal", @data_parsley_type = "", id = "frCreate", @role = "form" }))
+        {
+            @Html.AntiForgeryToken()
+            @Html.HiddenFor(x => x.CartOrder.Id)
+            @Html.HiddenFor(x => x.CartOrder.Created)
+
+            <div class="modal-body p-b-0">
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Tên khách hàng : </label>
+                    <div class="col-sm-9 col-form-label"> @Model.CartOrder.Name </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Số điện thoại : </label>
+                    <div class="col-sm-9 col-form-label"> @Model.CartOrder.Phone </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Địa chỉ nhận hàng : </label>
+                    <div class="col-sm-9 col-form-label"> Tỉnh/Thành Phố @Model.CartOrder.Province , Quận / Huyện @Model.CartOrder.District - @Model.CartOrder.Address </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Sản phẩm : </label>
+                    <div class="col-sm-9 col-form-label">
+                        @if (Model.ProductInCarts != null && Model.ProductInCarts.Any())
+                        {
+                            for (int i = 0; i < Model.ProductInCarts.Count; i++)
+                            {
+                                var item = Model.ProductInCarts[i];
+                                <div class="form-group row">
+                                    <div class="col-sm-4"><img src="@item.FirstAvatar.ChangeThumbSize(200,0)" style="width:100%" /></div>
+                                    <div class="col-sm-6">@item.Name</div>
+                                    <div class="col-sm-2">Số lượng : @item.Number</div>
+                                </div>
+                            }
+                        }
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Duyệt đơn hàng</label>
+                    <div class="col-sm-9 border-checkbox-section">
+                        <div class="border-checkbox-group border-checkbox-group-primary"> @Html.CheckBox("CartOrder.Approved", Model.CartOrder.Approved == true, new { @class = "border-checkbox" }) <label class="border-checkbox-label" for="CartOrder_Approved"></label> </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" onclick="sendCreate('@Url.Action("ReView", "CartOrder")')" class="btn btn-primary">Lưu</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Hủy</button>
+            </div>
+        }
+    </div>
+</div>

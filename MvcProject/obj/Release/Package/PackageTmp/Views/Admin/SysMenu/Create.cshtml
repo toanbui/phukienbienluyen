@@ -1,0 +1,52 @@
+﻿@model Entities.Param.SysMenuParam
+@using Entities.Entities
+
+<script src="~/Scripts/Admin/inputmask.js"></script>
+<script src="~/Scripts/Admin/jquery.inputmask.js"></script>
+<script src="~/Scripts/Admin/form-mask.js"></script>
+
+<div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title">Thông tin</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        @using (Html.BeginForm("Create", "SysMenu", FormMethod.Post, new { @class = "form-horizontal", @data_parsley_type = "", id = "frCreate", @role = "form" }))
+        {
+            @Html.AntiForgeryToken()
+            @Html.HiddenFor(x => x.SysMenu.Id)
+            <div class="modal-body p-b-0">
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label">Tên</label>
+                    <div class="col-sm-10">
+                        @Html.TextBoxFor(x => x.SysMenu.Name, new { @Required = "Required", @class = "form-control", @placeholder = "" })
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label">Đường dẫn</label>
+                    <div class="col-sm-10">
+                        @Html.TextBoxFor(x => x.SysMenu.Controller, new { @Required = "Required", @class = "form-control", @placeholder = "" })
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label">Icon</label>
+                    <div class="col-sm-10">
+                        @Html.TextBoxFor(x => x.SysMenu.Icon, new { @Required = "Required", @class = "form-control", @placeholder = "" })
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label">Trạng thái</label>
+                    <div class="col-sm-10">
+                        @Html.DropDownListFor(x => x.SysMenu.Status, ViewBag.Status as IEnumerable<SelectListItem>, new { @class = "form-control", @placeholder = "" })
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" onclick="sendCreate('@Url.Action("Create", "SysMenu")')" class="btn btn-primary">Lưu</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Hủy</button>
+            </div>
+        }
+    </div>
+</div>
