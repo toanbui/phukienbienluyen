@@ -61,3 +61,6 @@
     -o-transition: opacity 0.5s ease-in;
     transition: opacity 0.5s ease-in;
 }
+#hero-slider img {
+    width : 100%
+}

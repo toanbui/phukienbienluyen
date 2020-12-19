@@ -128,7 +128,7 @@ function processScroll() {
     var scrollTop = $(window).scrollTop();
     if ($("#product-load-more").length > 0) {
         var ajaxTop = $("#product-load-more").offset().top;
-        if (scrollTop >= (ajaxTop - 400)) {
+        if (scrollTop >= (ajaxTop - 768)) {
             var $ajaxContainer = $("#product-ajax");
             if (!$("#product-ajax").hasClass("loading")) {
                 $ajaxContainer.addClass("loading");
