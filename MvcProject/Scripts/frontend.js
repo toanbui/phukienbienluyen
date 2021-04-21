@@ -261,3 +261,7 @@ function onSearch() {
     var keywords = $("#searchtext").val();
     window.location.href = "/front/list/search?query=" + keywords;
 }
+function onSearchMobile() {
+    var keywords = $("#main-search-form-input").val();
+    window.location.href = "/front/list/search?query=" + keywords;
+}
