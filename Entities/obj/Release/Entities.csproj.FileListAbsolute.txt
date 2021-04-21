@@ -19,3 +19,10 @@ D:\Code\TFS\WebBien\Entities\obj\Release\Entities.csprojAssemblyReference.cache
 D:\Code\TFS\WebBien\Entities\obj\Release\Entities.csproj.CoreCompileInputs.cache
 D:\Code\TFS\WebBien\Entities\obj\Release\Entities.dll
 D:\Code\TFS\WebBien\Entities\obj\Release\Entities.pdb
+F:\Code\phukienbienluyen\Entities\bin\Release\Entities.dll.config
+F:\Code\phukienbienluyen\Entities\bin\Release\Entities.dll
+F:\Code\phukienbienluyen\Entities\bin\Release\Entities.pdb
+F:\Code\phukienbienluyen\Entities\obj\Release\Entities.csprojAssemblyReference.cache
+F:\Code\phukienbienluyen\Entities\obj\Release\Entities.csproj.CoreCompileInputs.cache
+F:\Code\phukienbienluyen\Entities\obj\Release\Entities.dll
+F:\Code\phukienbienluyen\Entities\obj\Release\Entities.pdb

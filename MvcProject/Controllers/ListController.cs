@@ -77,5 +77,44 @@ namespace MvcProject.Controllers
                 return Json(new { isSuccess = false, mess = ex.Message }, JsonRequestBehavior.AllowGet);
             }
         }
+
+        public ActionResult Search(string query)
+        {
+            var model = new HomeModel();
+
+            #region ListProduct
+            var pagininfo = new EtsPaging { RowStart = 0, PageSize = 12 };
+            var param = new ProductParam() { PagingInfo = pagininfo };
+            var ProductFilter = new ProductFilter() { Status = (int)Utilities.Constants.RecordStatus.Published, keysearch = query };
+            param.ProductFilter = ProductFilter;
+            ProductBo.FeSearchOrderByPrice(param);
+            #endregion
+
+            model.ProductParam = param;
+
+            ViewBag.KeyWords = query;
+            return View(model);
+        }
+        [HttpPost]
+        public ActionResult AjaxSearchProduct(int pageIndex, int pageSize , string query)
+        {
+            try
+            {
+                var pagininfo = new EtsPaging { RowStart = (pageIndex - 1) * pageSize, PageSize = pageSize };
+                var param = new ProductParam() { PagingInfo = pagininfo };
+                var ProductFilter = new ProductFilter() { Status = (int)Utilities.Constants.RecordStatus.Published , keysearch = query };
+                param.ProductFilter = ProductFilter;
+                ProductBo.FeSearchOrderByPrice(param);
+                if (param.ProductEntitys != null && param.ProductEntitys.Any())
+                {
+                    return PartialView(param);
+                }
+                return Json(new { isSuccess = false, mess = "Hết data" }, JsonRequestBehavior.AllowGet);
+            }
+            catch (Exception ex)
+            {
+                return Json(new { isSuccess = false, mess = ex.Message }, JsonRequestBehavior.AllowGet);
+            }
+        }
     }
 }

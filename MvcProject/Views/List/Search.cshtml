@@ -1,0 +1,23 @@
+﻿@model Entities.Param.FrontEnd.HomeModel
+@using Entities.Entities
+@using Utilities
+
+@Html.Hidden("query", (string)ViewBag.KeyWords)
+<div id="search-page">
+    <div id="PageContainer" class="is-moved-by-drawer">
+        <main class="main-content" role="main">
+            <div id="index-wrapper">
+                <div class="wrapper">
+                    <div class="inner">
+                        <div class="grid">
+                            <div class="grid__item large--full-twelfths medium--one-whole small--one-whole float-right">
+                                @Html.Partial("_ProductList")
+                                <div id="product-search-load-more"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>

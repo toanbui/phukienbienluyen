@@ -172,10 +172,10 @@
                             <div class="grid__item large--two-thirds text-right">
                                 <div class="hdt-right-search">
                                     <div class="search-form-wrapper">
-                                        <form id="searchauto" action="/search" class="searchform-categoris ultimate-search">
+                                        <div id="searchauto" class="searchform-categoris ultimate-search">
                                             <div class="wpo-search">
                                                 <div class="wpo-search-inner">
-                                                    <select class="select-collection">
+                                                    @*<select class="select-collection">
                                                         <option value="0">
                                                             Tất cả
 
@@ -185,16 +185,15 @@
                                                         <option value="1001194030">
                                                             Thiết bị y tế
 
-                                                    </select>
+                                                    </select>*@
                                                     <div class="input-group">
-                                                        <input type="hidden" name="type" value="product"><input id="searchtext" name="q" id="s" maxlength="40" class="form-control input-search" type="text" size="20" placeholder="Tìm kiếm sản phẩm..."><span class="input-group-btn">
-                                                            <button type="submit" id="searchsubmit"><i class="fas fa-search"></i></button>
+                                                        <input id="searchtext" class="form-control input-search" type="text" size="20" placeholder="Tìm kiếm sản phẩm..."><span class="input-group-btn">
+                                                            <span onclick="onSearch()"><i class="fas fa-search"></i></span>
                                                         </span>
                                                     </div>
                                                 </div>
-                                                <input type="hidden" class="collection_id" value="(collectionid:product>=0)"><input type="hidden" class="collection_handle" value="all"><input type="hidden" class="collection_name" value="all">
                                             </div>
-                                        </form>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

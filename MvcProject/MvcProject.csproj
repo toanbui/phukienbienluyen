@@ -1326,6 +1326,8 @@
     <Content Include="Views\Admin\CustomerTools\Index.cshtml" />
     <Content Include="Views\List\AjaxProduct.cshtml" />
     <Content Include="Views\List\_ProductList.cshtml" />
+    <Content Include="Views\List\Search.cshtml" />
+    <Content Include="Views\List\AjaxSearchProduct.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
